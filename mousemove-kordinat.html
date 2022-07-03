@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(document).mousemove(function(event){
+    $("span").text(event.pageX + ", " + event.pageY);
+  });
+});
+</script>
+</head>
+<body>
+
+<p>Mouse is at coordinates: <span></span>.</p>
+
+</body>
+</html>
