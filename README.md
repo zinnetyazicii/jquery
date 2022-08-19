@@ -37,25 +37,25 @@
 
 # jQuery Effects
 
-# 1. hide() 
+### 1. hide() 
   - HTML öğelerini  gizleyebilir.
-# 2. show()
+### 2. show()
   -  HTML öğelerini gösterebilirsiniz.
-# 3. toggle()
+### 3. toggle()
   - Yöntemle bir öğeyi gizleme ve gösterme arasında da geçiş yapabilirsiniz .Gösterilen öğeler gizler ve gizli öğeler gösterilir.
-# 4. fadeIn()
+### 4. fadeIn()
   - gizli bir öğede kaybolmak için kullanılır.
   -  `$(selector).fadeIn(speed,callback);`
   -  İsteğe bağlı hız parametresi, etkinin süresini belirtir. Şu değerleri alabilir: "yavaş", "hızlı" veya milisaniye.
-# 5. fadeOut()
+### 5. fadeOut()
   - görünür bir öğeyi karartmak için kullanılır.
   - `$(selector).fadeOut(speed,callback);`
   - İsteğe bağlı hız parametresi, etkinin süresini belirtir. Şu değerleri alabilir: "yavaş", "hızlı" veya milisaniye.
-# 6. fadeToggle()
+### 6. fadeToggle()
   - yöntemi ve  fadeIn() ve fadeOut() arasında geçiş yapar
   - `$(selector).fadeToggle(speed,callback);` 
   - İsteğe bağlı hız parametresi, etkinin süresini belirtir. Şu değerleri alabilir: "yavaş", "hızlı" veya milisaniye.
-# 7. fadeTo()
+### 7. fadeTo()
   - belirli bir opaklığa (0 ile 1 arasındaki değer) solmaya izin verir.
   - `$(selector).fadeTo(speed,opacity,callback);`
   - Gerekli hız parametresi, etkinin süresini belirtir. Şu değerleri alabilir: "yavaş", "hızlı" veya milisaniye.Yöntemdeki gerekli opaklık parametresi, fadeTo()belirli bir opaklığa geçişi belirtir (0 ile 1 arasındaki değer).
