@@ -104,10 +104,22 @@
   });
 });`
   
-### 13.  animate()
-### 14.  animate()
-### 15.  animate()
-
+### 13.  Callback 
+  - JavaScript ifadeleri satır satır yürütülür. Ancak efektlerle, efekt bitmese bile bir sonraki kod satırı çalıştırılabilir. Bu hatalar oluşturabilir.
+  - Bunu önlemek için bir geri arama işlevi oluşturabilirsiniz.
+  - Geçerli efekt bittikten sonra bir geri arama işlevi yürütülür.Tipik sözdizimi: `$( selector ).hide( hız,geri arama );`
+  - `$("button").click(function(){
+  $("p").hide("slow", function(){
+    alert("The paragraph is now hidden");
+  });
+});`
+### 14.  Chaining (Zincirleme)
+  - Şimdiye kadar jQuery deyimlerini teker teker (birbiri ardına) yazıyorduk.Ancak, aynı eleman(lar) üzerinde birbiri ardına birden fazla jQuery komutu çalıştırmamıza izin veren zincirleme adı verilen bir teknik vardır.
+  - İpucu: Bu şekilde, tarayıcıların aynı öğeyi/elemanları bir kereden fazla bulması gerekmez.
+  - Bir eylemi zincirlemek için, eylemi önceki eyleme eklemeniz yeterlidir.
+  - Aşağıdaki örnek css(), slideUp(), ve slideDown() yöntemlerini birlikte zincirler. "p1" öğesi önce kırmızıya döner, sonra yukarı kayar ve sonra aşağı kayar:
+  - `$("#p1").css("color", "red").slideUp(2000).slideDown(2000);`
+* # HTML
 
 
 
