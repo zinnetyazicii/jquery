@@ -21,7 +21,7 @@
    - İşlev, form alanı odağı kaybettiğinde yürütülür
 ### 9. on
    - Bir öğeye birden çok olay işleyicisi ekleyin :
-   - $("p").on({
+   - ` $("p").on({
   mouseenter: function(){
     $(this).css("background-color", "lightgray");
   },
@@ -31,6 +31,6 @@
   click: function(){
     $(this).css("background-color", "yellow");
   }
-});
-![w3schools]([google.com/img.png](https://dz.linkedin.com/company/w3schools.com?trk=organization-update_share-update_actor-text))
-Bakınız : [w3schools]([https://www.gooogle.com](https://www.w3schools.com/jquery/jquery_events.asp))
+}); `
+* ![w3schools](https://media-exp1.licdn.com/dms/image/C4D0BAQHF7HLEYX6LSQ/company-logo_200_200/0/1607800000814?e=2147483647&v=beta&t=GKHAiWXada76R0r6gBhEGAr_3bVZjJPZmPDd5gdsLPM)
+* Bakınız : [w3schools]([https://www.gooogle.com](https://www.w3schools.com/jquery/jquery_events.asp))
