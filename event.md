@@ -1,6 +1,6 @@
 # Event
 
-- click	keypress	submit	load
+## 1. click
   - İşlev, kullanıcı HTML öğesine tıkladığında yürütülür.
 
 * dblclick	keydown	change	resize
