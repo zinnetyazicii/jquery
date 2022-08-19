@@ -1,6 +1,6 @@
-#Event
+# Event
 
-*click	keypress	submit	load
-*dblclick	keydown	change	resize
-*mouseenter	keyup	focus	scroll
-*mouseleave	 	blur	unload
+* click	keypress	submit	load
+* dblclick	keydown	change	resize
+* mouseenter	keyup	focus	scroll
+* mouseleave	 	blur	unload
