@@ -64,8 +64,6 @@
   -  bir öğeyi aşağı kaydırmak için kullanılır.
   - `$(selector).slideDown(speed,callback);` 
   - İsteğe bağlı hız parametresi, etkinin süresini belirtir. Şu değerleri alabilir: "yavaş", "hızlı" veya milisaniye.
-
-
 ### 9. slideUp()
   - bir öğeyi yukarı kaydırmak için kullanılır.
   - `$(selector).slideUp(speed,callback);`
@@ -74,7 +72,41 @@
   - slideDown() ve slideUp() arasında geçiş yapar 
   - `$(selector).slideToggle(speed,callback);`
   - İsteğe bağlı hız parametresi şu değerleri alabilir: "yavaş", "hızlı", milisaniye.
+### 11.  animate()
+  - özel animasyonlar oluşturmak için kullanılır.
+  - `$(selector).animate({params},speed,callback);`
+  - Gerekli params parametresi, canlandırılacak CSS özelliklerini tanımlar.
+  - İsteğe bağlı hız parametresi, etkinin süresini belirtir. Şu değerleri alabilir: "yavaş", "hızlı" veya milisaniye.
+  - İsteğe bağlı geri arama parametresi, animasyon tamamlandıktan sonra yürütülecek bir işlevdir.
+  - `$("button").click(function(){
+  $("div").animate({left: '250px'});
+}); `
+  - `$("button").click(function(){
+  $("div").animate({
+    left: '250px',
+    height: '+=150px',
+    width: '+=150px'
+  });
+}); `
 
+### 12.  stop() 
+  -  bir animasyonu veya efekti bitmeden durdurmak için kullanılır.
+  - `(selector).stop(stopAll,goToEnd);`
+  - İsteğe bağlı stopAll parametresi, animasyon kuyruğunun da temizlenip temizlenmeyeceğini belirtir. Varsayılan yanlıştır; bu, yalnızca etkin animasyonun durdurulacağı ve daha sonra sıraya alınmış animasyonların gerçekleştirilmesine izin verileceği anlamına gelir.
+  - İsteğe bağlı goToEnd parametresi, geçerli animasyonun hemen tamamlanıp tamamlanmayacağını belirtir. Varsayılan yanlıştır.
+  - Bu nedenle, varsayılan olarak stop()yöntem, seçili öğe üzerinde gerçekleştirilen geçerli animasyonu öldürür.
+  - `$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown(5000);
+  });
+  $("#stop").click(function(){
+    $("#panel").stop();
+  });
+});`
+  
+### 13.  animate()
+### 14.  animate()
+### 15.  animate()
 
 
 
