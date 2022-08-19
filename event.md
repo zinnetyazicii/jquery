@@ -32,3 +32,5 @@
     $(this).css("background-color", "yellow");
   }
 });
+![w3schools]([google.com/img.png](https://dz.linkedin.com/company/w3schools.com?trk=organization-update_share-update_actor-text))
+Bakınız : [w3schools]([https://www.gooogle.com](https://www.w3schools.com/jquery/jquery_events.asp))
