@@ -1,6 +1,6 @@
 # jquery
 
-* # jQuery Event
+# jQuery Event
 
 ### 1. click
   - İşlev, kullanıcı HTML öğesine tıkladığında yürütülür.
@@ -36,7 +36,7 @@
 }); 
 
 
-* # jQuery Effects
+# jQuery Effects
 
 ### 1. hide() 
   - HTML öğelerini  gizleyebilir.
@@ -119,7 +119,7 @@
   - Bir eylemi zincirlemek için, eylemi önceki eyleme eklemeniz yeterlidir.
   - Aşağıdaki örnek css(), slideUp(), ve slideDown() yöntemlerini birlikte zincirler. "p1" öğesi önce kırmızıya döner, sonra yukarı kayar ve sonra aşağı kayar:
   - `$("#p1").css("color", "red").slideUp(2000).slideDown(2000);`
-* # HTML
+# HTML
 
 
 
