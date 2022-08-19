@@ -1,6 +1,6 @@
 # jquery
 
-# jQuery Event
+* # jQuery Event
 
 ### 1. click
   - İşlev, kullanıcı HTML öğesine tıkladığında yürütülür.
