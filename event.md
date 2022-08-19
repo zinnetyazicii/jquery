@@ -33,4 +33,4 @@
   }
 }); `
 * ![w3schools](https://media-exp1.licdn.com/dms/image/C4D0BAQHF7HLEYX6LSQ/company-logo_200_200/0/1607800000814?e=2147483647&v=beta&t=GKHAiWXada76R0r6gBhEGAr_3bVZjJPZmPDd5gdsLPM)
-* Bakınız : [w3schools]([https://www.gooogle.com](https://www.w3schools.com/jquery/jquery_events.asp)
+* Bakınız : [w3schools]([https://www.w3schools.com/jquery/jquery_events.asp])
