@@ -35,7 +35,8 @@
   }
 }); 
 
-# jQuery Effects
+* #
+* # jQuery Effects
 
 ### 1. hide() 
   - HTML öğelerini  gizleyebilir.
