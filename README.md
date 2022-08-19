@@ -35,7 +35,7 @@
   }
 }); 
 
-* #
+
 * # jQuery Effects
 
 ### 1. hide() 
@@ -60,6 +60,20 @@
   - belirli bir opaklığa (0 ile 1 arasındaki değer) solmaya izin verir.
   - `$(selector).fadeTo(speed,opacity,callback);`
   - Gerekli hız parametresi, etkinin süresini belirtir. Şu değerleri alabilir: "yavaş", "hızlı" veya milisaniye.Yöntemdeki gerekli opaklık parametresi, fadeTo()belirli bir opaklığa geçişi belirtir (0 ile 1 arasındaki değer).
+### 8. slideDown()
+  -  bir öğeyi aşağı kaydırmak için kullanılır.
+  - `$(selector).slideDown(speed,callback);` 
+  - İsteğe bağlı hız parametresi, etkinin süresini belirtir. Şu değerleri alabilir: "yavaş", "hızlı" veya milisaniye.
+
+
+### 9. slideUp()
+  - bir öğeyi yukarı kaydırmak için kullanılır.
+  - `$(selector).slideUp(speed,callback);`
+  - İsteğe bağlı hız parametresi, etkinin süresini belirtir. Şu değerleri alabilir: "yavaş", "hızlı" veya milisaniye.
+### 10. slideToggle()
+  - slideDown() ve slideUp() arasında geçiş yapar 
+  - `$(selector).slideToggle(speed,callback);`
+  - İsteğe bağlı hız parametresi şu değerleri alabilir: "yavaş", "hızlı", milisaniye.
 
 
 
