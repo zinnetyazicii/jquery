@@ -1,5 +1,3 @@
-# jquery
-
 # jQuery Event
 
 ### 1. click
@@ -147,15 +145,40 @@
   - `<p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>` 
   - https://www.w3schools.com çıktısını veririr
 ## 2. Set
-  - `$("#btn1").click(function(){
+### 2.1 text()
+ - Seçili öğelerin metin içeriğini ayarlar veya döndürür
+ - `$("#btn1").click(function(){
   $("#test1").text("Hello world!");
 });`
-  - `$("#btn2").click(function(){
+### 2.2 html()
+ - Seçilen öğelerin içeriğini ayarlar veya döndürür (HTML işaretlemesi dahil)
+ - `$("#btn2").click(function(){
   $("#test2").html("<b>Hello world!</b>");
 });`
+### 2.3 val()
+ - Form alanlarının değerini ayarlar veya döndürür 
   - `$("#btn3").click(function(){
   $("#test3").val("Dolly Duck");
 })`
+### 2.4 attr()
+  - öznitelik değerlerini ayarlamak/değiştirmek için de kullanılır.
+  - `$("button").click(function(){
+  $("#w3s").attr("href", "https://www.w3schools.com/jquery/");
+});`
+## 3. Add
+### 3.1. append()
+  - Seçilen öğelerin sonuna içerik ekler  ( öğenin içine içeriğin eklenmesidir )
+### 3.2. prepend()
+  - Seçilen öğelerin başına içerik ekler ( öğenin içine içeriğin eklenmesidir )
+### 3.3. after()
+  - Seçilen öğelerden sonra içerik ekler ( öğenin dışına içeriğin eklenmesidir )
+### 3.4. before()
+  - Seçili öğelerden önce içerik ekler  ( öğenin dışına içeriğin eklenmesidir )
+## 4. Remove
+# 4.1.
+# 4.2.
+
+
 
 
 
