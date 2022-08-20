@@ -284,6 +284,57 @@
   - `$(document).ready(function(){
   $("p").not(".intro");
 });`
+# AJAX
+## 1. load()
+  - yöntemi basit ama güçlü bir AJAX yöntemidir.
+  - bir sunucudan veri yükler ve döndürülen verileri seçilen öğeye yerleştirir.
+  - `$(selector).load(URL,data,callback);`
+  - Gerekli URL parametresi, yüklemek istediğiniz URL'yi belirtir.
+  - İsteğe bağlı veri parametresi, istekle birlikte gönderilecek bir dizi sorgu dizesi anahtar/değer çifti belirtir.
+  - İsteğe bağlı geri çağırma parametresi, yöntem tamamlandıktan sonra yürütülecek bir işlevin adıdır .
+  - Aşağıdaki örnek, "demo_test.txt" dosyasının içeriğini belirli bir <div>öğeye yükler
+  - `$("#div1").load("demo_test.txt");`
+  - Aşağıdaki örnek, "demo_test.txt" dosyasının içindeki id="p1" öğesinin içeriğini belirli bir <div>öğeye yükler
+  - `$("#div1").load("demo_test.txt #p1");`
+  - load() İsteğe bağlı geri arama parametresi, yöntem tamamlandığında çalıştırılacak bir geri arama işlevini belirtir . Geri arama işlevi farklı parametrelere sahip olabilir:
+      - responseTxt- arama başarılı olursa ortaya çıkan içeriği içerir
+      - statusTxt- aramanın durumunu içerir
+      - xhr- XMLHttpRequest nesnesini içerir
+  - Aşağıdaki örnek, load() yöntemi tamamlandıktan sonra bir uyarı kutusu görüntüler. Yöntem başarılı olursa, load()"Harici içerik başarıyla yüklendi!" mesajını görüntüler ve başarısız olursa bir hata mesajı görüntüler:
+  - `$("button").click(function(){
+  $("#div1").load("demo_test.txt", function(responseTxt, statusTxt, xhr){
+    if(statusTxt == "success")
+      alert("External content loaded successfully!");
+    if(statusTxt == "error")
+      alert("Error: " + xhr.status + ": " + xhr.statusText);
+  });
+});`
+## 2. $.get()
+  - sunucudan bir HTTP GET isteği ile veri ister.
+  - `$.get(URL,callback);`
+  - Aşağıdaki örnek $.get(), sunucudaki bir dosyadan veri almak için yöntemi kullanır:
+  - `$("button").click(function(){
+  $.get("demo_test.asp", function(data, status){
+    alert("Data: " + data + "\nStatus: " + status);
+  });
+});`
+## 3. $.post()
+  -  bir HTTP POST isteği kullanarak sunucudan veri ister.
+  - `$.post(URL,data,callback);`
+  - Gerekli URL parametresi, talep etmek istediğiniz URL'yi belirtir.
+  - İsteğe bağlı veri parametresi, istekle birlikte gönderilecek bazı verileri belirtir.
+  - İsteğe bağlı geri arama parametresi, istek başarılı olursa yürütülecek işlevin adıdır.
+  - Aşağıdaki örnek $.post(), istekle birlikte bazı verileri göndermek için yöntemi kullanır:
+  - `$("button").click(function(){
+  $.post("demo_test_post.asp",
+  {
+    name: "Donald Duck",
+    city: "Duckburg"
+  },
+  function(data, status){
+    alert("Data: " + data + "\nStatus: " + status);
+  });
+});`
 
 
 
