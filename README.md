@@ -229,7 +229,62 @@
     alert(txt);
   });
 });`
-## 7. Traversing (Gezinme)
+# Traversing (Gezinme)
+## 1. parent()
+  - seçilen öğenin doğrudan üst öğesini döndürür.
+## 2. parents()
+  - belgenin kök öğesine kadar seçili öğenin tüm üst öğelerini döndürür .<html>
+## 3. parentsUntil()
+  - verilen iki bağımsız değişken arasındaki tüm üst öğeleri döndürür.
+  - Aşağıdaki örnek, a <span>ile bir <div>öğe arasındaki tüm üst öğeleri döndürür:
+  - `$(document).ready(function(){
+  $("span").parentsUntil("div");
+});`
+## 4. children()
+  - seçilen öğenin tüm doğrudan alt öğelerini döndürür.
+  - her bir öğenin doğrudan çocukları olan tüm öğeleri döndürür
+  - `<div><p><p></p></p></div> ` 2 p de child dır
+## 5. find()
+  - seçilen öğenin alt öğelerini son alt öğeye kadar döndürür.
+  - seçilen öğenin alt öğelerini son alt öğeye kadar döndürür.
+  - torunları olan tüm öğeleri döndürür
+## 6. siblings()
+  -  seçilen öğenin tüm kardeş öğelerini döndürür.
+## 7. next()
+  - seçilen öğenin bir sonraki kardeş öğesini döndürür.
+## 8. nextAll()
+  - seçilen öğenin sonraki tüm kardeş öğelerini döndürür.
+## 9. nextUntil()
+  - verilen iki bağımsız değişken arasındaki sonraki tüm kardeş öğeleri döndürür.
+## 10. prev()
+  - seçilen öğenin bir önceki kardeş öğesini döndürür.
+## 11. prevAll()
+  - seçilen öğenin önceki tüm kardeş öğelerini döndürür.
+## 12. prevUntil()
+  - verilen iki bağımsız değişken arasından önceki tüm kardeş öğeleri döndürür.
+## 13. first()
+  -  belirtilen öğelerin ilk öğesini döndürür.
+## 14. last()
+  - belirtilen öğelerin son öğesini döndürür.
+## 15. eq()
+  - seçilen öğelerin belirli bir dizin numarasına sahip bir öğe döndürür.
+  - Dizin numaraları 0'dan başlar, bu nedenle ilk öğe 1 değil 0 dizin numarasına sahip olacaktır. Aşağıdaki örnek ikinci <p>öğeyi seçer (dizin numarası 1)
+  - `$(document).ready(function(){
+  $("p").eq(1);
+});`
+## 16. filter() 
+  - bir ölçüt belirlemenizi sağlar. Kriterlerle eşleşmeyen öğeler seçimden çıkarılır ve eşleşen öğeler döndürülür.
+  - `$(document).ready(function(){
+  $("p").filter(".intro");
+});`
+## 17. not()
+  -  ölçütlerle eşleşmeyen tüm öğeleri döndürür.
+  - İpucu: Yöntem not(), öğesinin tam tersidir filter().
+  - Aşağıdaki örnek, <p>"intro" sınıf adına sahip olmayan tüm öğeleri döndürür
+  - `$(document).ready(function(){
+  $("p").not(".intro");
+});`
+
 
 
 
