@@ -203,6 +203,35 @@
 ## 6. Dimensions(Hacim-Boyut)
 ![w3schools](https://www.w3schools.com/jquery/img_jquerydim.gif)
 
+### 6.1. width()
+  - bir öğenin genişliğini ayarlar veya döndürür (padding, border ve margin hariç).
+### 6.2. height()
+  - bir öğenin yüksekliğini ayarlar veya döndürür (padding, border vemargin hariç).
+### 6.3. innerWidth()
+  - bir öğenin genişliğini döndürür (padding içerir).
+### 6.4. innerHeight()
+  - bir öğenin yüksekliğini döndürür (padding içerir). 
+### 6.5. outerWidth()
+  - bir öğenin genişliğini döndürür (padding ve border içerir).
+### 6.6. outerHeight()
+  - bir öğenin yüksekliğini döndürür (padding ve border içerir).
+### 6.7. outerWidth(true)
+  - bir öğenin genişliğini döndürür (padding, border ve margin içerir).
+### 6.8. outerHeight(true) 
+  - bir öğenin yüksekliğini döndürür (padding, border ve margin içerir).
+  - `$(document).ready(function(){
+  $("button").click(function(){
+    var txt = "";
+    txt += "Document width/height: " + $(document).width();
+    txt += "x" + $(document).height() + "\n";
+    txt += "Window width/height: " + $(window).width();
+    txt += "x" + $(window).height();
+    alert(txt);
+  });
+});`
+## 7. Traversing (Gezinme)
+
+
 
 
 
