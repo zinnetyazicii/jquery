@@ -182,15 +182,15 @@
 ## 5. Get and Set CSS Classes
 ### 5.1. addClass()
   - Seçili öğelere bir veya daha fazla sınıf ekler
-### 5.1. removeClass()
+### 5.2. removeClass()
   - Seçili öğelerden bir veya daha fazla sınıfı kaldırır
-### 5.1. toggleClass()
+### 5.3. toggleClass()
   - Seçili öğelerden sınıf ekleme/çıkarma arasında geçiş yapar
   - `$("button").click(function(){
   $("h1, h2, p").toggleClass("blue");
 });
 `
-### 5.1. css()
+### 5.4. css()
   - Stil niteliğini ayarlar veya döndürür
   - Belirtilen bir CSS özelliğinin değerini döndürmek için aşağıdaki sözdizimini kullanın
   - `css("propertyname"); ( $("p").css("background-color"); )` ( İLK eşleşen öğenin arka plan rengi değerini döndürür)
