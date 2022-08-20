@@ -120,13 +120,24 @@
   - Aşağıdaki örnek css(), slideUp(), ve slideDown() yöntemlerini birlikte zincirler. "p1" öğesi önce kırmızıya döner, sonra yukarı kayar ve sonra aşağı kayar:
   - `$("#p1").css("color", "red").slideUp(2000).slideDown(2000);`
 # HTML
-### 1. text()
+## 1.Get
+
+### 1.1. text()
   - Seçili öğelerin metin içeriğini ayarlar veya döndürür
-### 2. html()
+  -` $("#btn1").click(function(){
+  alert("Text: " + $("#test").text());
+});`
+### 1.2. html()
   - Seçilen öğelerin içeriğini ayarlar veya döndürür (HTML etiketleri dahil)
-### 3. val()
-  - Form alanlarının değerini ayarlar veya döndürür
-### 4. attr()
+  - `$("#btn2").click(function(){
+  alert("HTML: " + $("#test").html());
+});`
+### 1.3. val()
+  - Form alanlarının değerini ayarlar veya döndürür.
+  - `$("#btn1").click(function(){
+  alert("Value: " + $("#test").val());
+});`
+### 1.4. attr()
   - Öznitelik değerlerini elde etmek için kullanılır.
   - `$(document).ready(function(){
   $("button").click(function(){
@@ -135,6 +146,16 @@
 });`
   - `<p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>` 
   - https://www.w3schools.com çıktısını veririr
+## 2. Set
+  - `$("#btn1").click(function(){
+  $("#test1").text("Hello world!");
+});`
+  - `$("#btn2").click(function(){
+  $("#test2").html("<b>Hello world!</b>");
+});`
+  - `$("#btn3").click(function(){
+  $("#test3").val("Dolly Duck");
+})`
 
 
 
