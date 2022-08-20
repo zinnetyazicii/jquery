@@ -120,6 +120,12 @@
   - Aşağıdaki örnek css(), slideUp(), ve slideDown() yöntemlerini birlikte zincirler. "p1" öğesi önce kırmızıya döner, sonra yukarı kayar ve sonra aşağı kayar:
   - `$("#p1").css("color", "red").slideUp(2000).slideDown(2000);`
 # HTML
+### 1. text()
+  - Seçili öğelerin metin içeriğini ayarlar veya döndürür
+### 2. html()
+  - Seçilen öğelerin içeriğini ayarlar veya döndürür (HTML işaretlemesi dahil)
+### 3. val()
+  - Form alanlarının değerini ayarlar veya döndürür
 
 
 
