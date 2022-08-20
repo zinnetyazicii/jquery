@@ -188,8 +188,7 @@
   - Seçili öğelerden sınıf ekleme/çıkarma arasında geçiş yapar
   - `$("button").click(function(){
   $("h1, h2, p").toggleClass("blue");
-});
-`
+});`
 ### 5.4. css()
   - Stil niteliğini ayarlar veya döndürür
   - Belirtilen bir CSS özelliğinin değerini döndürmek için aşağıdaki sözdizimini kullanın
@@ -201,7 +200,8 @@
   - `css({"propertyname":"value","propertyname":"value",...});`
   - eşleşen TÜM öğeler için bir arka plan rengi ve bir yazı tipi boyutu ayarlayacaktır:
   - `$("p").css({"background-color": "yellow", "font-size": "200%"});`
-
+## 6. Dimensions(Hacim-Boyut)
+![w3schools](https://www.w3schools.com/jquery/img_jquerydim.gif)
 
 
 
