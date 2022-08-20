@@ -174,9 +174,33 @@
   - Seçilen öğelerden sonra içerik ekler ( öğenin dışına içeriğin eklenmesidir )
 ### 3.4. before()
   - Seçili öğelerden önce içerik ekler  ( öğenin dışına içeriğin eklenmesidir )
-## 4. Remove
-# 4.1.
-# 4.2.
+## 4. Remove Elements/Content
+### 4.1. remove()
+  - Seçili öğeyi (ve onun alt öğelerini) kaldırır
+### 4.2. empty()
+  - Seçili öğeden alt öğeleri kaldırır.Seçili öğe kaldırılmaz. içerik silinir
+## 5. Get and Set CSS Classes
+### 5.1. addClass()
+  - Seçili öğelere bir veya daha fazla sınıf ekler
+### 5.1. removeClass()
+  - Seçili öğelerden bir veya daha fazla sınıfı kaldırır
+### 5.1. toggleClass()
+  - Seçili öğelerden sınıf ekleme/çıkarma arasında geçiş yapar
+  - `$("button").click(function(){
+  $("h1, h2, p").toggleClass("blue");
+});
+`
+### 5.1. css()
+  - Stil niteliğini ayarlar veya döndürür
+  - Belirtilen bir CSS özelliğinin değerini döndürmek için aşağıdaki sözdizimini kullanın
+  - `css("propertyname"); ( $("p").css("background-color"); )` ( İLK eşleşen öğenin arka plan rengi değerini döndürür)
+  - elirtilen bir CSS özelliğini ayarlamak için aşağıdaki sözdizimini kullanın:
+  -`css("propertyname","value");`
+  - `$("p").css("background-color", "yellow");`
+  - *Birden Çok CSS Özelliği Ayarla*
+  - `css({"propertyname":"value","propertyname":"value",...});`
+  - eşleşen TÜM öğeler için bir arka plan rengi ve bir yazı tipi boyutu ayarlayacaktır:
+  - `$("p").css({"background-color": "yellow", "font-size": "200%"});`
 
 
 
