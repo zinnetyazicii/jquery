@@ -401,22 +401,36 @@ jq(document).ready(function(){
     <td>5</td>
     <td>"p"</td>
     <td>	$("p")</td>
-    <td>Tüm <p> öğeleri </p></td>
+    <td>Tüm `<p>`öğeleri </td>
 
 </tr>
-</table>
+<tr>
+    <td>6</td>
+    <td>el1,el2,el3</td>
+    <td>$("h1,div,p")</td>
+    <td>Tüm `<h1>`,`<div>` ve `<p>` öğeleri </td>
+
+</tr>
+<tr>
+  <td>8</td>
+  <td>:last	 </td>$
+  <td>("p:last")</td>
+  <td>The last <p> element</tr>
   
-
-	
-
-
-el1,el2,el3	$("h1,div,p")	All <h1>, <div> and <p> elements
- 	 	 
-:first	$("p:first")	The first <p> element
-:last	$("p:last")	The last <p> element
-:even	$("tr:even")	All even <tr> elements
-:odd	$("tr:odd")	All odd <tr> elements
- 	 	 
+</tr>
+<tr>
+  <td>8</td>
+  <td>:even </td>	
+  <td>$("tr:even")</td>
+  <td>All even <tr> elements</tr>
+</tr>
+<tr>
+  <td>8</td>
+  <td>:odd </td>	
+  <td>$("tr:odd")</td>
+  <td>	All odd <tr> elements</tr>
+</tr>
+</table> 	 
 :first-child	$("p:first-child")	All <p> elements that are the first child of their parent
 :first-of-type	$("p:first-of-type")	All <p> elements that are the first <p> element of their parent
 :last-child	$("p:last-child")	All <p> elements that are the last child of their parent
