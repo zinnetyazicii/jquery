@@ -506,25 +506,25 @@ jq(document).ready(function(){
   <td>20</td>
   <td>parent > child</td>
   <td>$("div > p")</td>
-  <td>All p elements that are a direct child of a <div> element</td>
+  <td>All p elements that are a direct child of a div element</td>
 </tr>
 <tr>
   <td>21</td>
   <td>parent descendant</td>
   <td>$("div p")</td>
-  <td>	All p elements that are descendants of a <div> element</td>
+  <td>	All p elements that are descendants of a div element</td>
 </tr>
 <tr>
   <td>22</td>
   <td>element + next</td>
  <td>$("div + p")</td>
- <td>The <p> element that are next to each <div> elements</td>
+ <td>The p element that are next to each div elements</td>
 </tr>
 <tr>
   <td>23</td>
   <td>element ~ siblings</td>
   <td>$("div ~ p")</td>
-  <td>	All p elements that appear after the <div> element</td>
+  <td>	All p elements that appear after the div element</td>
 </tr>
  	 	 
 <tr>
@@ -556,7 +556,7 @@ jq(document).ready(function(){
   <td>28</td>
   <td>:header</td>
   <td>$(":header")</td>
-  <td>All header elements <h1>, <h2> ...</td>
+  <td>All header elements h1,h2 ...</td>
 </tr>
 <tr>
   <td>29</td>
@@ -580,7 +580,7 @@ jq(document).ready(function(){
   <td>32</td>
   <td>:has(selector)</td>
  <td>$("div:has(p)")</td>
- <td>	All <div> elements that have a <p> element</td>
+ <td>	All div elements that have a p element</td>
 </tr>
 <tr>
   <td>33</td>
@@ -598,7 +598,7 @@ jq(document).ready(function(){
   <td>35</td>
   <td>:hidden</td>
   <td>$("p:hidden")</td>
-  <td>All hidden <p> elements</td>
+  <td>All hidden p elements</td>
 </tr>
 <tr>
   <td>36</td>
