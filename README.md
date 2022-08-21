@@ -364,22 +364,52 @@ jq(document).ready(function(){
 });`
 <table>
 <tr>
-    <td>Keys 1</td>
-    <td>Value 1</td>
+    <td>Sıra</td>
+    <td>Selector</td>
+    <td>Örnek</td>
+    <td>Açıklama</td>
 </tr>
 <tr>
-    <td>Key 2</td>
-    <td>Value 2</td>
+    <td>1</td>
+    <td>*</td>
+    <td>$("*")</td>
+    <td>Tüm Elementler</td>
+
+</tr>
+<tr>
+    <td>2</td>
+    <td>#id	</td>
+    <td>$("#lastname")</td>
+    <td>Idsi lastname olan Elementler</td>
+
+</tr>
+<tr>
+    <td>3</td>
+    <td>.class</td>
+    <td>$(".intro")</td>
+    <td>classı intro olan tüm Elementler</td>
+
+</tr>
+<tr>
+    <td>4</td>
+    <td>.class,.class</td>
+    <td>$(".intro,.demo")</td>
+    <td>classı intro veya demo olan tüm Elementler</td>
+
+</tr>
+<tr>
+    <td>5</td>
+    <td>"p"</td>
+    <td>	$("p")</td>
+    <td>Tüm <p> öğeleri </p></td>
+
 </tr>
 </table>
   
-|Selector	|Example	|Selects|
-|_________|_________|_______|
-*	$("*")	All elements
-#id	$("#lastname")	The element with id="lastname"
-.class	$(".intro")	All elements with class="intro"
-.class,.class	$(".intro,.demo")	All elements with the class "intro" or "demo"
-element	$("p")	All <p> elements
+
+	
+
+
 el1,el2,el3	$("h1,div,p")	All <h1>, <div> and <p> elements
  	 	 
 :first	$("p:first")	The first <p> element
