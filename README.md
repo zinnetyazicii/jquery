@@ -401,34 +401,34 @@ jq(document).ready(function(){
     <td>5</td>
     <td>"p"</td>
     <td>	$("p")</td>
-    <td>Tüm `<p>`öğeleri </td>
+    <td>Tüm p öğeleri </td>
 
 </tr>
 <tr>
     <td>6</td>
     <td>el1,el2,el3</td>
     <td>$("h1,div,p")</td>
-    <td>Tüm `<h1>`,`<div>` ve `<p>` öğeleri </td>
+    <td>Tüm h1,div ve p elementleri </td>
 
 </tr>
 <tr>
-  <td>8</td>
+  <td>7</td>
   <td>:last	 </td>$
   <td>("p:last")</td>
-  <td>The last <p> element</tr>
-  
+  <td>son p elemanı</tr>
+
 </tr>
 <tr>
   <td>8</td>
   <td>:even </td>	
   <td>$("tr:even")</td>
-  <td>All even <tr> elements</tr>
+  <td>tüm çift indeksli tr elementleri </tr>
 </tr>
 <tr>
-  <td>8</td>
+  <td>9</td>
   <td>:odd </td>	
   <td>$("tr:odd")</td>
-  <td>	All odd <tr> elements</tr>
+  <td>tüm tek indeksli tr elementleri</tr>
 </tr>
 </table> 	 
 :first-child	$("p:first-child")	All <p> elements that are the first child of their parent
