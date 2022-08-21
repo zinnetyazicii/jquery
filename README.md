@@ -335,7 +335,34 @@
     alert("Data: " + data + "\nStatus: " + status);
   });
 });`
-
+# Misc
+## 1. noConflict()
+  - diğer komut dosyalarının kullanabilmesi için $ kısayol tanımlayıcısındaki bekletmeyi serbest bırakır.
+  - `$.noConflict();
+jQuery(document).ready(function(){
+  jQuery("button").click(function(){
+    jQuery("p").text("jQuery is still working!");
+  });
+});`
+  - Kendi kısayolunuzu da çok kolay bir şekilde oluşturabilirsiniz. Yöntem noConflict(), daha sonra kullanmak üzere bir değişkene kaydedebileceğiniz jQuery'ye bir başvuru döndürür. İşte bir örnek:
+  - `var jq = $.noConflict();
+jq(document).ready(function(){
+  jq("button").click(function(){
+    jq("p").text("jQuery is still working!");
+  });
+});`
+## 2. Filtreleme
+  -  Giriş alanının değeriyle eşleşen herhangi bir metin değeri olup olmadığını kontrol etmek için her tablo satırında döngü yapmak için jQuery kullanıyoruz. Yöntem , aramayla eşleşmeyen toggle()satırı ( ) gizler . Metni küçük harfe dönüştürmek için DOM yöntemini kullanırız, bu da aramanın büyük/küçük harfe duyarlı olmamasını sağlar (aramada "john", "John" ve hatta "JOHN" kullanımına izin verir) display:none.toLowerCase()
+  - tablo filtrele (myInput id listeye tabloya vb verilebilir.)
+  - `$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+  
 
 
 
