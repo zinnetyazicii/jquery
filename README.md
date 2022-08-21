@@ -336,7 +336,7 @@
   });
 });`
 # Misc
-## 1. noConflict()
+### 1. noConflict()
   - diğer komut dosyalarının kullanabilmesi için $ kısayol tanımlayıcısındaki bekletmeyi serbest bırakır.
   - `$.noConflict();
 jQuery(document).ready(function(){
@@ -351,7 +351,7 @@ jq(document).ready(function(){
     jq("p").text("jQuery is still working!");
   });
 });`
-## 2. Filtreleme
+### 2. Filtreleme
   -  Giriş alanının değeriyle eşleşen herhangi bir metin değeri olup olmadığını kontrol etmek için her tablo satırında döngü yapmak için jQuery kullanıyoruz. Yöntem , aramayla eşleşmeyen toggle()satırı ( ) gizler . Metni küçük harfe dönüştürmek için DOM yöntemini kullanırız, bu da aramanın büyük/küçük harfe duyarlı olmamasını sağlar (aramada "john", "John" ve hatta "JOHN" kullanımına izin verir) display:none.toLowerCase()
   - tablo filtrele (myInput id listeye tabloya vb verilebilir.)
   - `$(document).ready(function(){
