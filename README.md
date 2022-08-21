@@ -411,6 +411,8 @@ jq(document).ready(function(){
     <td>Tüm h1,div ve p elementleri </td>
 
 </tr>
+</table> 
+
 <tr>
   <td>7</td>
   <td>:last	 </td>$
@@ -435,77 +437,77 @@ jq(document).ready(function(){
   <td>10</td>
   <td>:first-child</td>
   <td>$("p:first-child")</td>	
-  <td>All <p> elements that are the first child of their parent</td>
+  <td>Ebeveynlerinin ilk çocuğu olan tüm p öğeleri</td>
 
 </tr>
 <tr>
   <td>11</td>
   <td>:first-of-type</td>
   <td>$("p:first-of-type")</td>	
-  <td>All <p> elements that are the first <p> element of their parent</td>
+  <td>Ebeveynlerinin ilk p öğesi olan tüm p öğeleri</td>
 
 </tr>
 <tr>
   <td>12</td>
   <td>:last-child</td>
   <td>$("p:last-child")</td>	
-  <td>All <p> elements that are the last child of their parent</td>
+  <td>Ebeveynlerinin son çocuğu olan tüm p öğeleri</td>
 
 </tr>
 <tr>
   <td>13</td>
   <td>:last-of-type</td>
   <td>$("p:last-of-type")</td>	
-  <td>All <p> elements that are the last <p> element of their parent</td>
+  <td>Ebeveynlerinin son p öğesi olan tüm p öğeleri</td>
 
 </tr>
 <tr>
   <td>14</td>
   <td>:nth-child(n)</td>
   <td>$("p:nth-child(2)")</td>	
-  <td>All <p> elements that are the 2nd child of their parent</td>
+  <td>Ebeveynlerinin 2. çocuğu olan tüm p öğeleri</td>
 
 </tr>
 <tr>
   <td>15</td>
   <td>:nth-last-child(n)</td>
   <td>$("p:nth-last-child(2)")</td>	
-  <td>All <p> elements that are the 2nd child of their parent, counting from the last child</td>
+  <td>Son çocuktan itibaren ebeveyninin 2. çocuğu olan tüm p öğeleri</td>
 
 </tr>
 <tr>
   <td>16</td>
   <td>:nth-of-type(n)</td>
   <td>$("p:nth-of-type(2)")</td>	
-  <td>All <p> elements that are the 2nd <p> element of their parent</td>
+  <td>Ebeveynlerinin 2. p öğesi olan tüm p öğeleri</td>
 
 </tr>
 <tr>
   <td>17</td>
   <td>:nth-last-of-type(n)</td>
   <td>$("p:nth-last-of-type(2)")</td>	
-  <td>All <p> elements that are the 2nd <p> element of their parent, counting from the last child</td>
+  <td>Son çocuktan itibaren ebeveyninin 2. p öğesi olan tüm p öğeleri</td>
 
 </tr>
 <tr>
   <td>18</td>
   <td>:only-child	</td>
   <td>$("p:only-child")</td>	
-  <td>All <p> elements that are the only child of their parent</td>
+  <td>Ebeveynlerinin tek çocuğu olan tüm p öğeleri</td>
 
 </tr>
 <tr>
   <td>19</td>
   <td>:only-of-type</td>
   <td>$("p:only-of-type")</td>		
-  <td>>All <p> elements that are the only child, of its type, of their parent</td>
+  <td>Kendi türünde ebeveyninin tek çocuğu olan tüm p öğeleri</td>
 
 </tr>
 </table> 	 	 	 
-parent > child	$("div > p")	All <p> elements that are a direct child of a <div> element
-parent descendant	$("div p")	All <p> elements that are descendants of a <div> element
+parent > child	$("div > p")	All p elements that are a direct child of a <div> element
+parent descendant	$("div p")	All p elements that are descendants of a <div> element
 element + next	$("div + p")	The <p> element that are next to each <div> elements
-element ~ siblings	$("div ~ p")	All <p> elements that appear after the <div> element
+element ~ siblings	$("div ~ p")	All p elements that appear after the <div> element
  	 	 
 :eq(index)	$("ul li:eq(3)")	The fourth element in a list (index starts at 0)
 :gt(no)	$("ul li:gt(3)")	List elements with an index greater than 3
@@ -522,7 +524,7 @@ element ~ siblings	$("div ~ p")	All <p> elements that appear after the <div> ele
 :hidden	$("p:hidden")	All hidden <p> elements
 :visible	$("table:visible")	All visible tables
 :root	$(":root")	The document's root element
-:lang(language)	$("p:lang(de)")	All <p> elements with a lang attribute value starting with "de"
+:lang(language)	$("p:lang(de)")	All p elements with a lang attribute value starting with "de"
  	 	 
 [attribute]	$("[href]")	All elements with a href attribute
 [attribute=value]	$("[href='default.htm']")	All elements with a href attribute value equal to "default.htm"
