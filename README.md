@@ -501,7 +501,7 @@ jq(document).ready(function(){
   <td>Kendi türünde ebeveyninin tek çocuğu olan tüm p öğeleri</td>
 
 </tr>
-</table> 	 	 	 
+ 	 	 	 
 <tr>
   <td>20</td>
   <td>parent > child</td>
@@ -618,7 +618,7 @@ jq(document).ready(function(){
   <td>$("p:lang(de)")</td>
   <td></td>All p elements with a lang attribute value starting with "de"</td>
 </tr>
- 	 	 
+ </table>	 	 
 [attribute]	$("[href]")	All elements with a href attribute
 [attribute=value]	$("[href='default.htm']")	All elements with a href attribute value equal to "default.htm"
 [attribute!=value]	$("[href!='default.htm']")	All elements with a href attribute value not equal to "default.htm"
