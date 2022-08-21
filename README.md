@@ -429,8 +429,8 @@ jq(document).ready(function(){
   <td>:odd </td>	
   <td>$("tr:odd")</td>
   <td>tüm tek indeksli tr elementleri</tr>
-</tr>
-</table> 	 
+
+</tr> 
 <tr>
   <td>10</td>
   <td>:first-child</td>
@@ -501,7 +501,7 @@ jq(document).ready(function(){
   <td>>All <p> elements that are the only child, of its type, of their parent</td>
 
 </tr>
- 	 	 
+</table> 	 	 	 
 parent > child	$("div > p")	All <p> elements that are a direct child of a <div> element
 parent descendant	$("div p")	All <p> elements that are descendants of a <div> element
 element + next	$("div + p")	The <p> element that are next to each <div> elements
