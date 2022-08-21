@@ -412,7 +412,7 @@ jq(document).ready(function(){
 
 </tr>
 </table> 
-
+<table>
 <tr>
   <td>7</td>
   <td>:last	 </td>$
@@ -433,6 +433,8 @@ jq(document).ready(function(){
   <td>tüm tek indeksli tr elementleri</tr>
 
 </tr> 
+</table>
+<table>
 <tr>
   <td>10</td>
   <td>:first-child</td>
