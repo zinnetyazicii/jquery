@@ -618,31 +618,71 @@ jq(document).ready(function(){
   <td>$("p:lang(de)")</td>
   <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
 </tr>
- </table>	 	 
-[attribute]	$("[href]")	All elements with a href attribute
-[attribute=value]	$("[href='default.htm']")	All elements with a href attribute value equal to "default.htm"
-[attribute!=value]	$("[href!='default.htm']")	All elements with a href attribute value not equal to "default.htm"
-[attribute$=value]	$("[href$='.jpg']")	All elements with a href attribute value ending with ".jpg"
-[attribute|=value]	$("[title|='Tomorrow']")	All elements with a title attribute value equal to 'Tomorrow', or starting with 'Tomorrow' followed by a hyphen
-[attribute^=value]	$("[title^='Tom']")	All elements with a title attribute value starting with "Tom"
-[attribute~=value]	$("[title~='hello']")	All elements with a title attribute value containing the specific word "hello"
-[attribute*=value]	$("[title*='hello']")	All elements with a title attribute value containing the word "hello"
+ 	 
+<tr>
+<td>40</td>
+<td>[attribute]	<td>
+<td></td>$("[href]")</td>
+<td></td>	Bir href özniteliğine sahip tüm öğeler</td>
+</tr>
+<tr>
+<td>40</td>
+<td>[attribute=value]<td>
+<td>	$("[href='default.htm']")	</td>
+<td>"default.htm" değerine eşit bir href öznitelik değerine sahip tüm öğeler</td>
+</tr>
+<tr>
+<td>40</td>
+<td>[attribute!=value]<td>
+<td>	$("[href!='default.htm']")</td>
+<td>	"default.htm" değerine eşit olmayan bir href öznitelik değerine sahip tüm öğeler</td>
+</tr>
+<tr>
+<td>40</td>
+<td>[attribute$=value]	<td>
+<td>$("[href$='.jpg']")	</td>
+<td>".jpg" ile biten bir href öznitelik değerine sahip tüm öğeler</td>
+</tr>
+<tr>
+<td>40</td>
+<td>[attribute|=value]	<td>
+<td>$("[title|='Tomorrow']")</td>
+<td>	Başlık öznitelik değeri "Tomorrow"a eşit olan veya "Tomorrow" ile başlayan ve ardından kısa çizgi gelen tüm öğeler</td>
+</tr>
+<tr>
+<td>40</td>
+<td>[attribute^=value]<td>
+<td>	$("[title^='Tom']")</td>
+<td> "Tom" ile başlayan bir başlık özelliği değerine sahip tüm öğeler</td>
+</tr>
+<tr>
+<td>40</td>
+<td>[attribute~=value]	<td>
+<td>$("[title~='hello']")	</td>
+<td>Belirli "hello" kelimesini içeren bir başlık öznitelik değerine sahip tüm öğeler</td>
+</tr>
+<tr>
+<td>40</td>
+<td>[attribute*=value]<td>
+<td>	$("[title*='hello']")</td>
+<td>	"hello" kelimesini içeren başlık özelliği değerine sahip tüm öğeler</td>
+</tr>
  	 	 
-:input	$(":input")	All input elements
-:text	$(":text")	All input elements with type="text"
-:password	$(":password")	All input elements with type="password"
-:radio	$(":radio")	All input elements with type="radio"
-:checkbox	$(":checkbox")	All input elements with type="checkbox"
-:submit	$(":submit")	All input elements with type="submit"
-:reset	$(":reset")	All input elements with type="reset"
-:button	$(":button")	All input elements with type="button"
-:image	$(":image")	All input elements with type="image"
-:file	$(":file")	All input elements with type="file"
-:enabled	$(":enabled")	All enabled input elements
-:disabled	$(":disabled")	All disabled input elements
-:selected	$(":selected")	All selected input elements
-:checked	$(":checked")	All checked input elements
-
+:input	$(":input")	Tüm input elementleri
+:text	$(":text")	 type="text" olan tüm input elementleri
+:password	$(":password")	type="password" olan tüm input elementleri
+:radio	$(":radio") type="radio" olan tüm input elementleri
+:checkbox	$(":checkbox")	 type="checkbox" olan tüm input elementleri
+:submit	$(":submit")	type="submit" olan tüm input elementleri
+:reset	$(":reset")	type="reset" olan tüm input elementleri
+:button	$(":button")	type="button" olan tüm input elementleri
+:image	$(":image")	type="image" olan tüm input elementleri
+:file	$(":file")	type="file" olan tüm input elementleri
+:enabled	$(":enabled")	Tüm enabled input elementleri
+:disabled	$(":disabled")	Tüm disabled input elementleri
+:selected	$(":selected")	Tüm selected input elementleri
+:checked	$(":checked")	Tüm checked input elementleri
+ </table>	
 
 
 
