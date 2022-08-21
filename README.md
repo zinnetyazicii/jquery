@@ -411,8 +411,6 @@ jq(document).ready(function(){
     <td>Tüm h1,div ve p elementleri </td>
 
 </tr>
-</table> 
-<table>
 <tr>
   <td>7</td>
   <td>:last	 </td>$
@@ -433,8 +431,6 @@ jq(document).ready(function(){
   <td>tüm tek indeksli tr elementleri</tr>
 
 </tr> 
-</table>
-<table>
 <tr>
   <td>10</td>
   <td>:first-child</td>
