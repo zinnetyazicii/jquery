@@ -439,63 +439,63 @@ jq(document).ready(function(){
 
 </tr>
 <tr>
-  <td>10</td>
+  <td>11</td>
   <td>:first-of-type</td>
   <td>$("p:first-of-type")</td>	
   <td>All <p> elements that are the first <p> element of their parent</td>
 
 </tr>
 <tr>
-  <td>10</td>
+  <td>12</td>
   <td>:last-child</td>
   <td>$("p:last-child")</td>	
   <td>All <p> elements that are the last child of their parent</td>
 
 </tr>
 <tr>
-  <td>10</td>
+  <td>13</td>
   <td>:last-of-type</td>
   <td>$("p:last-of-type")</td>	
   <td>All <p> elements that are the last <p> element of their parent</td>
 
 </tr>
 <tr>
-  <td>10</td>
+  <td>14</td>
   <td>:nth-child(n)</td>
   <td>$("p:nth-child(2)")</td>	
   <td>All <p> elements that are the 2nd child of their parent</td>
 
 </tr>
 <tr>
-  <td>10</td>
+  <td>15</td>
   <td>:nth-last-child(n)</td>
   <td>$("p:nth-last-child(2)")</td>	
   <td>All <p> elements that are the 2nd child of their parent, counting from the last child</td>
 
 </tr>
 <tr>
-  <td>10</td>
+  <td>16</td>
   <td>:nth-of-type(n)</td>
   <td>$("p:nth-of-type(2)")</td>	
   <td>All <p> elements that are the 2nd <p> element of their parent</td>
 
 </tr>
 <tr>
-  <td>10</td>
+  <td>17</td>
   <td>:nth-last-of-type(n)</td>
   <td>$("p:nth-last-of-type(2)")</td>	
   <td>All <p> elements that are the 2nd <p> element of their parent, counting from the last child</td>
 
 </tr>
 <tr>
-  <td>10</td>
+  <td>18</td>
   <td>:only-child	</td>
   <td>$("p:only-child")</td>	
   <td>All <p> elements that are the only child of their parent</td>
 
 </tr>
 <tr>
-  <td>10</td>
+  <td>19</td>
   <td>:only-of-type</td>
   <td>$("p:only-of-type")</td>		
   <td>>All <p> elements that are the only child, of its type, of their parent</td>
