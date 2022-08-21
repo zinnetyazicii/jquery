@@ -506,117 +506,117 @@ jq(document).ready(function(){
   <td>20</td>
   <td>parent > child</td>
   <td>$("div > p")</td>
-  <td>All p elements that are a direct child of a div element</td>
+  <td>Bir div öğesinin doğrudan çocuğu olan tüm p öğeleri</td>
 </tr>
 <tr>
   <td>21</td>
   <td>parent descendant</td>
   <td>$("div p")</td>
-  <td>	All p elements that are descendants of a div element</td>
+  <td>Bir div öğesinin soyundan gelen tüm p öğeleri</td>
 </tr>
 <tr>
   <td>22</td>
   <td>element + next</td>
  <td>$("div + p")</td>
- <td>The p element that are next to each div elements</td>
+ <td>Her div öğesinin yanındaki p öğesi</td>
 </tr>
 <tr>
   <td>23</td>
   <td>element ~ siblings</td>
   <td>$("div ~ p")</td>
-  <td>	All p elements that appear after the div element</td>
+  <td>div öğesinden sonra görünen tüm p öğeleri</td>
 </tr>
  	 	 
 <tr>
   <td>24</td>
   <td>:eq(index)</td>
   <td>$("ul li:eq(3)")</td>
-  <td>The fourth element in a list (index starts at 0)</td>
+  <td>Listedeki dördüncü öğe (dizin 0'dan başlar)</td>
 </tr>
 <tr>
   <td>25</td>
   <td>:gt(no)</td>
   <td>$("ul li:gt(3)")</td>
-  <td>	List elements with an index greater than 3</td>
+  <td>3'ten büyük bir dizine sahip öğeleri listeleyin</td>
 </tr>
 <tr>
   <td>26</td>
   <td>:lt(no)</td>
  <td>$("ul li:lt(3)")</td>
- <td>List elements with an index less than 3</td>
+ <td>3'ten küçük bir dizine sahip öğeleri listeleyin</td>
 </tr>
 <tr>
   <td>27</td>
   <td>:not(selector)</td>
   <td>$("input:not(:empty)")</td>
-  <td>All input elements that are not empty</td>
+  <td>Boş olmayan tüm girdi öğeleri</td>
 </tr>
  	 	 
 <tr>
   <td>28</td>
   <td>:header</td>
   <td>$(":header")</td>
-  <td>All header elements h1,h2 ...</td>
+  <td>Tüm başlık öğeleri h1, h2 ...</td>
 </tr>
 <tr>
   <td>29</td>
   <td>:animated</td>
   <td>$(":animated")</td>
-  <td>	All animated elements</td>
+  <td>Tüm animasyonlu öğeler</td>
 </tr>
 <tr>
   <td>30</td>
   <td>:focus</td>
   <td></td>$(":focus")</td>
-  <td>The element that currently has focus</td>
+  <td>Şu anda odaklanmış olan öğe</td>
 </tr>
 <tr>
   <td>31</td>
   <td>:contains(text)</td>
   <td>$(":contains('Hello')")</td>
-  <td>All elements which contains the text "Hello"</td>
+  <td>"Merhaba" metnini içeren tüm öğeler</td>
 </tr>
 <tr>
   <td>32</td>
   <td>:has(selector)</td>
  <td>$("div:has(p)")</td>
- <td>	All div elements that have a p element</td>
+ <td>p öğesine sahip tüm div öğeleri</td>
 </tr>
 <tr>
   <td>33</td>
   <td>:empty</td>
   <td>$(":empty")</td>
-  <td>All elements that are empty</td>
+  <td>Boş olan tüm elemanlar</td>
 </tr>
 <tr>
   <td>34</td>
   <td>:parent</td>
   <td>$(":parent")</td>
-  <td>	All elements that are a parent of another element</td>
+  <td>Başka bir öğenin ebeveyni olan tüm öğeler</td>
 </tr>
 <tr>
   <td>35</td>
   <td>:hidden</td>
   <td>$("p:hidden")</td>
-  <td>All hidden p elements</td>
+  <td>Tüm gizli p öğeleri</td>
 </tr>
 <tr>
   <td>36</td>
   <td>:visible</td>
   <td>$("table:visible")</td>
-  <td>	All visible tables</td>
+  <td>Tüm görünür tablolar</td>
 </tr>
 <tr>
   <td>37</td>
   <td>:root</td>
   <td>$(":root")</td>
-  <td>	The document's root element</td>
+  <td>Belgenin kök öğesi</td>
 </tr>
 <tr>
   <td>38</td>
   <td>:lang(language)</td>
   <td>$("p:lang(de)")</td>
-  <td></td>All p elements with a lang attribute value starting with "de"</td>
+  <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
 </tr>
  </table>	 	 
 [attribute]	$("[href]")	All elements with a href attribute
