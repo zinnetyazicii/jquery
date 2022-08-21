@@ -619,13 +619,13 @@ jq(document).ready(function(){
   <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
 </tr> 	 
 <tr>
-  <td>40</td>
+  <td>39</td>
   <td>[attribute]	<td>
   <td>$("[href]")</td>
-  <td>	Bir href özniteliğine sahip tüm öğeler</td>
+  <td>Bir href özniteliğine sahip tüm öğeler</td>
 </tr>
 <tr>
-<td>40</td>
+<td>41</td>
 <td>[attribute=value]<td>
 <td>	$("[href='default.htm']")	</td>
 <td>"default.htm" değerine eşit bir href öznitelik değerine sahip tüm öğeler</td>
