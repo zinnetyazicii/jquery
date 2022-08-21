@@ -400,7 +400,7 @@ jq(document).ready(function(){
 <tr>
     <td>5</td>
     <td>"p"</td>
-    <td>	$("p")</td>
+    <td>$("p")</td>
     <td>Tüm p öğeleri </td>
 
 </tr>
@@ -431,16 +431,76 @@ jq(document).ready(function(){
   <td>tüm tek indeksli tr elementleri</tr>
 </tr>
 </table> 	 
-:first-child	$("p:first-child")	All <p> elements that are the first child of their parent
-:first-of-type	$("p:first-of-type")	All <p> elements that are the first <p> element of their parent
-:last-child	$("p:last-child")	All <p> elements that are the last child of their parent
-:last-of-type	$("p:last-of-type")	All <p> elements that are the last <p> element of their parent
-:nth-child(n)	$("p:nth-child(2)")	All <p> elements that are the 2nd child of their parent
-:nth-last-child(n)	$("p:nth-last-child(2)")	All <p> elements that are the 2nd child of their parent, counting from the last child
-:nth-of-type(n)	$("p:nth-of-type(2)")	All <p> elements that are the 2nd <p> element of their parent
-:nth-last-of-type(n)	$("p:nth-last-of-type(2)")	All <p> elements that are the 2nd <p> element of their parent, counting from the last child
-:only-child	$("p:only-child")	All <p> elements that are the only child of their parent
-:only-of-type	$("p:only-of-type")	All <p> elements that are the only child, of its type, of their parent
+<tr>
+  <td>10</td>
+  <td>:first-child</td>
+  <td>$("p:first-child")</td>	
+  <td>All <p> elements that are the first child of their parent</td>
+
+</tr>
+<tr>
+  <td>10</td>
+  <td>:first-of-type</td>
+  <td>$("p:first-of-type")</td>	
+  <td>All <p> elements that are the first <p> element of their parent</td>
+
+</tr>
+<tr>
+  <td>10</td>
+  <td>:last-child</td>
+  <td>$("p:last-child")</td>	
+  <td>All <p> elements that are the last child of their parent</td>
+
+</tr>
+<tr>
+  <td>10</td>
+  <td>:last-of-type</td>
+  <td>$("p:last-of-type")</td>	
+  <td>All <p> elements that are the last <p> element of their parent</td>
+
+</tr>
+<tr>
+  <td>10</td>
+  <td>:nth-child(n)</td>
+  <td>$("p:nth-child(2)")</td>	
+  <td>All <p> elements that are the 2nd child of their parent</td>
+
+</tr>
+<tr>
+  <td>10</td>
+  <td>:nth-last-child(n)</td>
+  <td>$("p:nth-last-child(2)")</td>	
+  <td>All <p> elements that are the 2nd child of their parent, counting from the last child</td>
+
+</tr>
+<tr>
+  <td>10</td>
+  <td>:nth-of-type(n)</td>
+  <td>$("p:nth-of-type(2)")</td>	
+  <td>All <p> elements that are the 2nd <p> element of their parent</td>
+
+</tr>
+<tr>
+  <td>10</td>
+  <td>:nth-last-of-type(n)</td>
+  <td>$("p:nth-last-of-type(2)")</td>	
+  <td>All <p> elements that are the 2nd <p> element of their parent, counting from the last child</td>
+
+</tr>
+<tr>
+  <td>10</td>
+  <td>:only-child	</td>
+  <td>$("p:only-child")</td>	
+  <td>All <p> elements that are the only child of their parent</td>
+
+</tr>
+<tr>
+  <td>10</td>
+  <td>:only-of-type</td>
+  <td>$("p:only-of-type")</td>		
+  <td>>All <p> elements that are the only child, of its type, of their parent</td>
+
+</tr>
  	 	 
 parent > child	$("div > p")	All <p> elements that are a direct child of a <div> element
 parent descendant	$("div p")	All <p> elements that are descendants of a <div> element
