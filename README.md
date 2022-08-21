@@ -378,7 +378,7 @@ jq(document).ready(function(){
 </tr>
 <tr>
     <td>2</td>
-    <td>#id	</td>
+    <td>#id</td>
     <td>$("#lastname")</td>
     <td>Idsi lastname olan Elementler</td>
 
@@ -401,32 +401,32 @@ jq(document).ready(function(){
     <td>5</td>
     <td>"p"</td>
     <td>$("p")</td>
-    <td>Tüm p öğeleri </td>
+    <td>Tüm p öğeleri</td>
 
 </tr>
 <tr>
     <td>6</td>
     <td>el1,el2,el3</td>
     <td>$("h1,div,p")</td>
-    <td>Tüm h1,div ve p elementleri </td>
+    <td>Tüm h1,div ve p elementleri</td>
 
 </tr>
 <tr>
   <td>7</td>
-  <td>:last	 </td>$
+  <td>:last	</td>$
   <td>("p:last")</td>
   <td>son p elemanı</tr>
 
 </tr>
 <tr>
   <td>8</td>
-  <td>:even </td>	
+  <td>:even</td>	
   <td>$("tr:even")</td>
   <td>tüm çift indeksli tr elementleri </tr>
 </tr>
 <tr>
   <td>9</td>
-  <td>:odd </td>	
+  <td>:odd</td>	
   <td>$("tr:odd")</td>
   <td>tüm tek indeksli tr elementleri</tr>
 
@@ -489,7 +489,7 @@ jq(document).ready(function(){
 </tr>
 <tr>
   <td>18</td>
-  <td>:only-child	</td>
+  <td>:only-child</td>
   <td>$("p:only-child")</td>	
   <td>Ebeveynlerinin tek çocuğu olan tüm p öğeleri</td>
 
@@ -502,27 +502,122 @@ jq(document).ready(function(){
 
 </tr>
 </table> 	 	 	 
-parent > child	$("div > p")	All p elements that are a direct child of a <div> element
-parent descendant	$("div p")	All p elements that are descendants of a <div> element
-element + next	$("div + p")	The <p> element that are next to each <div> elements
-element ~ siblings	$("div ~ p")	All p elements that appear after the <div> element
+<tr>
+  <td>20</td>
+  <td>parent > child</td>
+  <td>$("div > p")</td>
+  <td>All p elements that are a direct child of a <div> element</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td>parent descendant</td>
+  <td>$("div p")</td>
+  <td>	All p elements that are descendants of a <div> element</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td>element + next</td>
+ <td>$("div + p")</td>
+ <td>The <p> element that are next to each <div> elements</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td>element ~ siblings</td>
+  <td>$("div ~ p")</td>
+  <td>	All p elements that appear after the <div> element</td>
+</tr>
  	 	 
-:eq(index)	$("ul li:eq(3)")	The fourth element in a list (index starts at 0)
-:gt(no)	$("ul li:gt(3)")	List elements with an index greater than 3
-:lt(no)	$("ul li:lt(3)")	List elements with an index less than 3
-:not(selector)	$("input:not(:empty)")	All input elements that are not empty
+<tr>
+  <td>24</td>
+  <td>:eq(index)</td>
+  <td>$("ul li:eq(3)")</td>
+  <td>The fourth element in a list (index starts at 0)</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td>:gt(no)</td>
+  <td>$("ul li:gt(3)")</td>
+  <td>	List elements with an index greater than 3</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td>:lt(no)</td>
+ <td>$("ul li:lt(3)")</td>
+ <td>List elements with an index less than 3</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td>:not(selector)</td>
+  <td>$("input:not(:empty)")</td>
+  <td>All input elements that are not empty</td>
+</tr>
  	 	 
-:header	$(":header")	All header elements <h1>, <h2> ...
-:animated	$(":animated")	All animated elements
-:focus	$(":focus")	The element that currently has focus
-:contains(text)	$(":contains('Hello')")	All elements which contains the text "Hello"
-:has(selector)	$("div:has(p)")	All <div> elements that have a <p> element
-:empty	$(":empty")	All elements that are empty
-:parent	$(":parent")	All elements that are a parent of another element
-:hidden	$("p:hidden")	All hidden <p> elements
-:visible	$("table:visible")	All visible tables
-:root	$(":root")	The document's root element
-:lang(language)	$("p:lang(de)")	All p elements with a lang attribute value starting with "de"
+<tr>
+  <td>28</td>
+  <td>:header</td>
+  <td>$(":header")</td>
+  <td>All header elements <h1>, <h2> ...</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td>:animated</td>
+  <td>$(":animated")</td>
+  <td>	All animated elements</td>
+</tr>
+<tr>
+  <td>30</td>
+  <td>:focus</td>
+  <td></td>$(":focus")</td>
+  <td>The element that currently has focus</td>
+</tr>
+<tr>
+  <td>31</td>
+  <td>:contains(text)</td>
+  <td>$(":contains('Hello')")</td>
+  <td>All elements which contains the text "Hello"</td>
+</tr>
+<tr>
+  <td>32</td>
+  <td>:has(selector)</td>
+ <td>$("div:has(p)")</td>
+ <td>	All <div> elements that have a <p> element</td>
+</tr>
+<tr>
+  <td>33</td>
+  <td>:empty</td>
+  <td>$(":empty")</td>
+  <td>All elements that are empty</td>
+</tr>
+<tr>
+  <td>34</td>
+  <td>:parent</td>
+  <td>$(":parent")</td>
+  <td>	All elements that are a parent of another element</td>
+</tr>
+<tr>
+  <td>35</td>
+  <td>:hidden</td>
+  <td>$("p:hidden")</td>
+  <td>All hidden <p> elements</td>
+</tr>
+<tr>
+  <td>36</td>
+  <td>:visible</td>
+  <td>$("table:visible")</td>
+  <td>	All visible tables</td>
+</tr>
+<tr>
+  <td>37</td>
+  <td>:root</td>
+  <td>$(":root")</td>
+  <td>	The document's root element</td>
+</tr>
+<tr>
+  <td>38</td>
+  <td>:lang(language)</td>
+  <td>$("p:lang(de)")</td>
+  <td></td>All p elements with a lang attribute value starting with "de"</td>
+</tr>
  	 	 
 [attribute]	$("[href]")	All elements with a href attribute
 [attribute=value]	$("[href='default.htm']")	All elements with a href attribute value equal to "default.htm"
