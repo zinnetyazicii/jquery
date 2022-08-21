@@ -567,7 +567,7 @@ jq(document).ready(function(){
 <tr>
   <td>30</td>
   <td>:focus</td>
-  <td></td>$(":focus")</td>
+  <td>$(":focus")</td>
   <td>Şu anda odaklanmış olan öğe</td>
 </tr>
 <tr>
@@ -617,13 +617,12 @@ jq(document).ready(function(){
   <td>:lang(language)</td>
   <td>$("p:lang(de)")</td>
   <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
-</tr>
- 	 
+</tr> 	 
 <tr>
-<td>40</td>
-<td>[attribute]	<td>
-<td></td>$("[href]")</td>
-<td></td>	Bir href özniteliğine sahip tüm öğeler</td>
+  <td>40</td>
+  <td>[attribute]	<td>
+  <td>$("[href]")</td>
+  <td>	Bir href özniteliğine sahip tüm öğeler</td>
 </tr>
 <tr>
 <td>40</td>
