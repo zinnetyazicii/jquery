@@ -617,6 +617,24 @@ jq(document).ready(function(){
   <td>:lang(language)</td>
   <td>$("p:lang(de)")</td>
   <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
+</tr> 
+<tr>
+  <td>38</td>
+  <td>:lang(language)</td>
+  <td>$("p:lang(de)")</td>
+  <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
+</tr> 
+<tr>
+  <td>38</td>
+  <td>:lang(language)</td>
+  <td>$("p:lang(de)")</td>
+  <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
+</tr> 
+<tr>
+  <td>38</td>
+  <td>:lang(language)</td>
+  <td>$("p:lang(de)")</td>
+  <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
 </tr> 	 
 <tr>
   <td>39</td>
