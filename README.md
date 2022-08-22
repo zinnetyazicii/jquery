@@ -619,7 +619,7 @@ jq(document).ready(function(){
   <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
 </tr>
 <tr>
-  <td>38</td>
+  <td>39</td>
   <td>:lang(language)</td>
   <td>$("p:lang(de)")</td>
   <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
@@ -628,7 +628,7 @@ jq(document).ready(function(){
 <table>
 <tr>
   <td>39</td>
-  <td>[attribute]	<td>
+  <td>[attribute]<td>
   <td>$("[href]")</td>
   <td>Bir href özniteliğine sahip tüm öğeler</td>
 </tr>
@@ -646,13 +646,13 @@ jq(document).ready(function(){
 </tr>
 <tr>
 <td>40</td>
-<td>[attribute$=value]	<td>
+<td>[attribute$=value]<td>
 <td>$("[href$='.jpg']")	</td>
 <td>".jpg" ile biten bir href öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
 <td>40</td>
-<td>[attribute|=value]	<td>
+<td>[attribute|=value]<td>
 <td>$("[title|='Tomorrow']")</td>
 <td>	Başlık öznitelik değeri "Tomorrow"a eşit olan veya "Tomorrow" ile başlayan ve ardından kısa çizgi gelen tüm öğeler</td>
 </tr>
@@ -664,7 +664,7 @@ jq(document).ready(function(){
 </tr>
 <tr>
 <td>40</td>
-<td>[attribute~=value]	<td>
+<td>[attribute~=value]<td>
 <td>$("[title~='hello']")	</td>
 <td>Belirli "hello" kelimesini içeren bir başlık öznitelik değerine sahip tüm öğeler</td>
 </tr>
