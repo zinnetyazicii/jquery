@@ -992,7 +992,8 @@ jq(document).ready(function(){
   </tr>
 <tr>	
   <td>47</td>
-<td>triggerHandler()</td>td>	Seçilen öğeler için belirli bir olaya bağlı tüm işlevleri tetikler</td>
+<td>triggerHandler()</td>
+<td>Seçilen öğeler için belirli bir olaya bağlı tüm işlevleri tetikler</td>
   </tr>
 
 </table>
