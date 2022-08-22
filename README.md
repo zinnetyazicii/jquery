@@ -624,25 +624,17 @@ jq(document).ready(function(){
   <td>$("[href]")</td>
   <td>Bir href özniteliğine sahip tüm öğeler</td>
 </tr>
-</table> 	 
-<table>
-<tr>
-  <td>39</td>
-  <td>[attribute]<td>
-  <td>$("[href]")</td>
-  <td>Bir href özniteliğine sahip tüm öğeler</td>
-</tr>
 <tr>
   <td>40</td>
   <td>[attribute=value]<td>
-  <td>	$("[href='default.htm']")	</td>
+  <td>$("[href='default.htm']")	</td>
   <td>"default.htm" değerine eşit bir href öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
   <td>41</td>
   <td>[attribute!=value]<td>
-  <td>	$("[href!='default.htm']")</td>
-  <td>	"default.htm" değerine eşit olmayan bir href öznitelik değerine sahip tüm öğeler</td>
+  <td>$("[href!='default.htm']")</td>
+  <td>"default.htm" değerine eşit olmayan bir href öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
 <td>40</td>
@@ -654,12 +646,12 @@ jq(document).ready(function(){
 <td>40</td>
 <td>[attribute|=value]<td>
 <td>$("[title|='Tomorrow']")</td>
-<td>	Başlık öznitelik değeri "Tomorrow"a eşit olan veya "Tomorrow" ile başlayan ve ardından kısa çizgi gelen tüm öğeler</td>
+<td>Başlık öznitelik değeri "Tomorrow"a eşit olan veya "Tomorrow" ile başlayan ve ardından kısa çizgi gelen tüm öğeler</td>
 </tr>
 <tr>
 <td>40</td>
 <td>[attribute^=value]<td>
-<td>	$("[title^='Tom']")</td>
+<td>$("[title^='Tom']")</td>
 <td> "Tom" ile başlayan bir başlık özelliği değerine sahip tüm öğeler</td>
 </tr>
 <tr>
@@ -671,8 +663,8 @@ jq(document).ready(function(){
 <tr>
 <td>40</td>
 <td>[attribute*=value]<td>
-<td>	$("[title*='hello']")</td>
-<td>	"hello" kelimesini içeren başlık özelliği değerine sahip tüm öğeler</td>
+<td>$("[title*='hello']")</td>
+<td>"hello" kelimesini içeren başlık özelliği değerine sahip tüm öğeler</td>
 </tr>
 </table>	 	 
 :input	$(":input")	Tüm input elementleri
