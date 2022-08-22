@@ -362,6 +362,8 @@ jq(document).ready(function(){
     });
   });
 });`
+
+# jQuery Selectors
 <table>
 <tr>
     <td>Sıra</td>
@@ -637,50 +639,49 @@ jq(document).ready(function(){
   <td>"default.htm" değerine eşit olmayan bir href öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
-<td>40</td>
+<td>42</td>
 <td>[attribute$=value]</td>
 <td>$("[href$='.jpg']")	</td>
 <td>".jpg" ile biten bir href öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
-<td>40</td>
+<td>43</td>
 <td>[attribute|=value]</td>
 <td>$("[title|='Tomorrow']")</td>
 <td>Başlık öznitelik değeri "Tomorrow"a eşit olan veya "Tomorrow" ile başlayan ve ardından kısa çizgi gelen tüm öğeler</td>
 </tr>
 <tr>
-<td>40</td>
+<td>44</td>
 <td>[attribute^=value]</td>
 <td>$("[title^='Tom']")</td>
 <td>"Tom" ile başlayan bir başlık özelliği değerine sahip tüm öğeler</td>
 </tr>
 <tr>
-<td>40</td>
+<td>45</td>
 <td>[attribute~=value]</td>
 <td>$("[title~='hello']")	</td>
 <td>Belirli "hello" kelimesini içeren bir başlık öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
-<td>40</td>
+<td>46</td>
 <td>[attribute*=value]</td>
 <td>$("[title*='hello']")</td>
 <td>"hello" kelimesini içeren başlık özelliği değerine sahip tüm öğeler</td>
-</tr>
-	 	 
+</tr>	 	 
 <tr>
-  <td>50</td>
+  <td>47</td>
   <td>:input	</td>
   <td>$(":input")</td>
  <td>Tüm input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>48</td>
   <td>:text	</td>
   <td>$(":text")	</td>
   <td>type="text" olan tüm input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>49</td>
   <td>:password	</td>
   <td>$(":password")	</td>
   <td>type="password" olan tüm input elementleri</td>
@@ -692,61 +693,61 @@ jq(document).ready(function(){
   <td>type="radio" olan tüm input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>51</td>
   <td>:checkbox</td>
  <td>$(":checkbox")	</td>
   <td>type="checkbox" olan tüm input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>502</td>
   <td>:submit</td>
  <td>$(":submit")</td>
  <td>type="submit" olan tüm input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>53</td>
   <td>:reset	</td>
   <td>$(":reset")	</td>
   <td>type="reset" olan tüm input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>54</td>
   <td>:button	</td>
   <td>$(":button")	</td>
   <td>type="button" olan tüm input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>55</td>
   <td>:image	</td>
   <td>$(":image")	</td>
   <td>type="image" olan tüm input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>56</td>
   <td>:file	</td>
   <td>$(":file")</td>
  <td>type="file" olan tüm input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>57</td>
   <td>:enabled	</td>
   <td>$(":enabled")	</td>
   <td>Tüm enabled input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>58</td>
   <td>:disabled	</td>
   <td>$(":disabled")</td>
  <td>Tüm disabled input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>59</td>
   <td>:selected	</td>
   <td>$(":selected")</td>
  <td>Tüm selected input elementleri</td>
 </tr>
 <tr>
-  <td>50</td>
+  <td>60</td>
   <td>:checked	</td>
   <td>$(":checked")	</td>
   <td>Tüm checked input elementleri</td>
