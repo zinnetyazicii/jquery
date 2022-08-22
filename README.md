@@ -617,25 +617,9 @@ jq(document).ready(function(){
   <td>:lang(language)</td>
   <td>$("p:lang(de)")</td>
   <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
-</tr> 
-<tr>
-  <td>38</td>
-  <td>:lang(language)</td>
-  <td>$("p:lang(de)")</td>
-  <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
-</tr> 
-<tr>
-  <td>38</td>
-  <td>:lang(language)</td>
-  <td>$("p:lang(de)")</td>
-  <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
-</tr> 
-<tr>
-  <td>38</td>
-  <td>:lang(language)</td>
-  <td>$("p:lang(de)")</td>
-  <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
-</tr> 	 
+</tr>
+</table> 	 
+<table>
 <tr>
   <td>39</td>
   <td>[attribute]	<td>
@@ -643,16 +627,16 @@ jq(document).ready(function(){
   <td>Bir href özniteliğine sahip tüm öğeler</td>
 </tr>
 <tr>
-<td>41</td>
-<td>[attribute=value]<td>
-<td>	$("[href='default.htm']")	</td>
-<td>"default.htm" değerine eşit bir href öznitelik değerine sahip tüm öğeler</td>
+  <td>40</td>
+  <td>[attribute=value]<td>
+  <td>	$("[href='default.htm']")	</td>
+  <td>"default.htm" değerine eşit bir href öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
-<td>40</td>
-<td>[attribute!=value]<td>
-<td>	$("[href!='default.htm']")</td>
-<td>	"default.htm" değerine eşit olmayan bir href öznitelik değerine sahip tüm öğeler</td>
+  <td>41</td>
+  <td>[attribute!=value]<td>
+  <td>	$("[href!='default.htm']")</td>
+  <td>	"default.htm" değerine eşit olmayan bir href öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
 <td>40</td>
