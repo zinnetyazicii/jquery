@@ -415,7 +415,7 @@ jq(document).ready(function(){
 </tr>
 <tr>
   <td>7</td>
-  <td>:last	</td>$
+  <td>:last</td>$
   <td>("p:last")</td>
   <td>son p elemanı</tr>
 
@@ -629,7 +629,7 @@ jq(document).ready(function(){
 <tr>
   <td>40</td>
   <td>[attribute=value]</td>
-  <td>$("[href='default.htm']")	</td>
+  <td>$("[href='default.htm']")</td>
   <td>"default.htm" değerine eşit bir href öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
@@ -641,7 +641,7 @@ jq(document).ready(function(){
 <tr>
 <td>42</td>
 <td>[attribute$=value]</td>
-<td>$("[href$='.jpg']")	</td>
+<td>$("[href$='.jpg']")</td>
 <td>".jpg" ile biten bir href öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
@@ -659,7 +659,7 @@ jq(document).ready(function(){
 <tr>
 <td>45</td>
 <td>[attribute~=value]</td>
-<td>$("[title~='hello']")	</td>
+<td>$("[title~='hello']")</td>
 <td>Belirli "hello" kelimesini içeren bir başlık öznitelik değerine sahip tüm öğeler</td>
 </tr>
 <tr>
@@ -670,32 +670,32 @@ jq(document).ready(function(){
 </tr>	 	 
 <tr>
   <td>47</td>
-  <td>:input	</td>
+  <td>:input</td>
   <td>$(":input")</td>
  <td>Tüm input elementleri</td>
 </tr>
 <tr>
   <td>48</td>
-  <td>:text	</td>
-  <td>$(":text")	</td>
+  <td>:text</td>
+  <td>$(":text")</td>
   <td>type="text" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>49</td>
-  <td>:password	</td>
-  <td>$(":password")	</td>
+  <td>:password</td>
+  <td>$(":password")</td>
   <td>type="password" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>50</td>
-  <td>:radio	</td>
+  <td>:radio</td>
   <td>$(":radio")</td>
   <td>type="radio" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>51</td>
   <td>:checkbox</td>
- <td>$(":checkbox")	</td>
+ <td>$(":checkbox")</td>
   <td>type="checkbox" olan tüm input elementleri</td>
 </tr>
 <tr>
@@ -706,50 +706,50 @@ jq(document).ready(function(){
 </tr>
 <tr>
   <td>53</td>
-  <td>:reset	</td>
-  <td>$(":reset")	</td>
+  <td>:reset</td>
+  <td>$(":reset")</td>
   <td>type="reset" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>54</td>
-  <td>:button	</td>
-  <td>$(":button")	</td>
+  <td>:button</td>
+  <td>$(":button")</td>
   <td>type="button" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>55</td>
-  <td>:image	</td>
-  <td>$(":image")	</td>
+  <td>:image</td>
+  <td>$(":image")</td>
   <td>type="image" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>56</td>
-  <td>:file	</td>
+  <td>:file</td>
   <td>$(":file")</td>
  <td>type="file" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>57</td>
-  <td>:enabled	</td>
-  <td>$(":enabled")	</td>
+  <td>:enabled</td>
+  <td>$(":enabled")</td>
   <td>Tüm enabled input elementleri</td>
 </tr>
 <tr>
   <td>58</td>
-  <td>:disabled	</td>
+  <td>:disabled</td>
   <td>$(":disabled")</td>
  <td>Tüm disabled input elementleri</td>
 </tr>
 <tr>
   <td>59</td>
-  <td>:selected	</td>
+  <td>:selected</td>
   <td>$(":selected")</td>
  <td>Tüm selected input elementleri</td>
 </tr>
 <tr>
   <td>60</td>
-  <td>:checked	</td>
-  <td>$(":checked")	</td>
+  <td>:checked</td>
+  <td>$(":checked")</td>
   <td>Tüm checked input elementleri</td>
 </tr>
 </table>
@@ -761,238 +761,238 @@ jq(document).ready(function(){
     <td>Açıklama</td>
 </tr>
 <tr>	
-  <td>1	</td><
-  td>	blur()	</td>
-  <td>	Bulanıklaştırma olayını ekler/tetikler	</td>
+  <td>1</td><
+ <td>	blur()</td>
+<td>Bulanıklaştırma olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>2	</td><
-  td>	change()	</td>
-  <td>	change olayını ekler/tetikler	</td>
+  <td>2</td><
+ <td>	change()</td>
+<td>change olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>3	</td><
-  td>	click()	</td>
-  <td>	Click olayını ekler/tetikler	</td>
+  <td>3</td><
+ <td>	click()</td>
+<td>Click olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>4	</td><
-  td>	dblclick()	</td>
-  <td>	Çift tıklama olayını ekler/tetikler	</td>
+  <td>4</td><
+ <td>	dblclick()</td>
+<td>Çift tıklama olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>5	</td><
-  td>	event.currentTarget	</td>
-  <td>	Olay köpürme aşamasındaki mevcut DOM öğesi	</td>
+  <td>5</td><
+ <td>	event.currentTarget</td>
+<td>Olay köpürme aşamasındaki mevcut DOM öğesi</td>
   </tr>
 <tr>	
-  <td>6	</td><
-  td>	event.data	</td>
-  <td>	Geçerli yürütme işleyicisi bağlandığında bir olay yöntemine geçirilen isteğe bağlı verileri içerir	</td>
+  <td>6</td><
+ <td>	event.data</td>
+<td>Geçerli yürütme işleyicisi bağlandığında bir olay yöntemine geçirilen isteğe bağlı verileri içerir</td>
   </tr>
 <tr>	
-  <td>7	</td><
-  td>	event.delegateTarget	</td>
-  <td>	Şu anda çağrılan jQuery olay işleyicisinin eklendiği öğeyi döndürür	</td>
+  <td>7</td><
+ <td>	event.delegateTarget</td>
+<td>Şu anda çağrılan jQuery olay işleyicisinin eklendiği öğeyi döndürür</td>
   </tr>
 <tr>	
-  <td>8	</td><
-  td>	event.isDefaultPrevented()	</td>
-  <td>	Olay nesnesi için event.preventDefault() öğesinin çağrılıp çağrılmadığını döndürür	</td>
+  <td>8</td><
+ <td>	event.isDefaultPrevented()</td>
+<td>Olay nesnesi için event.preventDefault() öğesinin çağrılıp çağrılmadığını döndürür</td>
   </tr>
 <tr>	
-  <td>9	</td><
-  td>	event.isImmediatePropagationStopped()	</td>
-  <td>	Olay nesnesi için event.stopImmediatePropagation() öğesinin çağrılıp çağrılmadığını döndürür	</td>
+  <td>9</td><
+ <td>	event.isImmediatePropagationStopped()</td>
+<td>Olay nesnesi için event.stopImmediatePropagation() öğesinin çağrılıp çağrılmadığını döndürür</td>
   </tr>
 <tr>	
-  <td>10	</td>
-  <td>	event.isPropagationStopped()	</td>
-  <td>	Olay nesnesi için event.stopPropagation() öğesinin çağrılıp çağrılmadığını döndürür	</td>
+  <td>10</td>
+<td>event.isPropagationStopped()</td>
+<td>Olay nesnesi için event.stopPropagation() öğesinin çağrılıp çağrılmadığını döndürür</td>
   </tr>
 <tr>	
-  <td>11	</td>
-  <td>	event.namespace	</td>
-  <td>	Olay tetiklendiğinde belirtilen ad alanını döndürür	</td>
+  <td>11</td>
+<td>event.namespace</td>
+<td>Olay tetiklendiğinde belirtilen ad alanını döndürür</td>
   </tr>
 <tr>	
-  <td>12	</td>
-  <td>	event.pageX	</td>
-  <td>	Belgenin sol kenarına göre fare konumunu döndürür	</td>
+  <td>12</td>
+<td>event.pageX</td>
+<td>Belgenin sol kenarına göre fare konumunu döndürür</td>
   </tr>
 <tr>	
-  <td>13	</td>
-  <td>	event.pageY	</td>
-  <td>	Belgenin üst kenarına göre fare konumunu döndürür	</td>
+  <td>13</td>
+<td>event.pageY</td>
+<td>Belgenin üst kenarına göre fare konumunu döndürür</td>
   </tr>
 <tr>	
-  <td>14	</td>
-  <td>	event.preventDefault()	</td>
-  <td>	Etkinliğin varsayılan eylemini engeller	</td>
+  <td>14</td>
+<td>event.preventDefault()</td>
+<td>Etkinliğin varsayılan eylemini engeller</td>
   </tr>
 <tr>	
-  <td>15	</td>
-  <td>	event.relatedTarget	</td>
-  <td>	Fare hareketinde hangi öğenin girildiğini veya çıktığını döndürür	</td>
+  <td>15</td>
+<td>event.relatedTarget</td>
+<td>Fare hareketinde hangi öğenin girildiğini veya çıktığını döndürür</td>
   </tr>
 <tr>	
-  <td>16	</td>
-  <td>	event.result	</td>
-  <td>	Belirtilen olay tarafından tetiklenen bir olay işleyicisi tarafından döndürülen son/önceki değeri içerir	</td>
+  <td>16</td>
+<td>event.result</td>
+<td>Belirtilen olay tarafından tetiklenen bir olay işleyicisi tarafından döndürülen son/önceki değeri içerir</td>
   </tr>
 <tr>	
-  <td>17	</td>
-  <td>	event.stopImmediatePropagation()	</td>
-  <td>	Diğer olay işleyicilerinin çağrılmasını engeller	</td>
+  <td>17</td>
+<td>event.stopImmediatePropagation()</td>
+<td>Diğer olay işleyicilerinin çağrılmasını engeller</td>
   </tr>
 <tr>	
-  <td>18	</td>
-  <td>	event.stopPropagation()	</td>
-  <td>	Olayın DOM ağacında köpürmesini önleyerek, herhangi bir ebeveyn işleyicisinin olaydan haberdar edilmesini engeller	</td>
+  <td>18</td>
+<td>event.stopPropagation()</td>
+<td>Olayın DOM ağacında köpürmesini önleyerek, herhangi bir ebeveyn işleyicisinin olaydan haberdar edilmesini engeller</td>
   </tr>
 <tr>	
-  <td>19	</td>
-  <td>	event.target	</td>
-  <td>	Hangi DOM öğesinin olayı tetiklediğini döndürür	</td>
+  <td>19</td>
+<td>event.target</td>
+<td>Hangi DOM öğesinin olayı tetiklediğini döndürür</td>
   </tr>
 <tr>	
-  <td>20	</td>
-  <td>	event.timeStamp	</td>
-  <td>	Olayın tetiklendiği 1 Ocak 1970'den bu yana geçen milisaniye sayısını döndürür	</td>
+  <td>20</td>
+<td>event.timeStamp</td>
+<td>Olayın tetiklendiği 1 Ocak 1970'den bu yana geçen milisaniye sayısını döndürür</td>
   </tr>
 <tr>	
-  <td>21	</td>
-  <td>	event.type	</td>
-  <td>	Hangi olay türünün tetiklendiğini döndürür	</td>
+  <td>21</td>
+<td>event.type</td>
+<td>Hangi olay türünün tetiklendiğini döndürür</td>
   </tr>
 <tr>	
-  <td>22	</td>
-  <td>	event.which	</td>
-  <td>	Olay için hangi klavye tuşuna veya fare düğmesine basıldığını döndürür	</td>
+  <td>22</td>
+<td>event.which</td>
+<td>Olay için hangi klavye tuşuna veya fare düğmesine basıldığını döndürür</td>
   </tr>
 <tr>	
-  <td>23	</td>
-  <td>	focus()	</td>
-  <td>	Odak olayını ekler/tetikler	</td>
+  <td>23</td>
+<td>focus()</td>
+<td>Odak olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>24	</td>
-  <td>	focusin()	</td>
-  <td>	Focusin olayına bir olay işleyicisi ekler	</td>
+  <td>24</td>
+<td>focusin()</td>
+<td>Focusin olayına bir olay işleyicisi ekler</td>
   </tr>
 <tr>	
-  <td>25	</td>
-  <td>	focusout()	</td>
-  <td>	Focusout olayına bir olay işleyicisi ekler	</td>
+  <td>25</td>
+<td>focusout()</td>
+<td>Focusout olayına bir olay işleyicisi ekler</td>
   </tr>
 <tr>	
-  <td>26	</td>
-  <td>	hover()	</td>
-  <td>	Hover olayına iki olay işleyicisi ekler	</td>
+  <td>26</td>
+<td>hover()</td>
+<td>Hover olayına iki olay işleyicisi ekler</td>
   </tr>
 <tr>	
-  <td>27	</td>
-  <td>	keydown()	</td>
-  <td>	Keydown olayını ekler/tetikler	</td>
+  <td>27</td>
+<td>keydown()</td>
+<td>Keydown olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>28	</td>
-  <td>	keypress()	</td>
-  <td>	Tuşa basma olayını ekler/tetikler	</td>
+  <td>28</td>
+<td>keypress()</td>
+<td>Tuşa basma olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>29	</td>
-  <td>	keyup()	</td>
-  <td>	Keyup olayını ekler/tetikler	</td>
+  <td>29</td>
+<td>keyup()</td>
+<td>Keyup olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>30	</td>
-  <td>	mousedown()	</td>
-  <td>	Mousedown olayını ekler/tetikler	</td>
+  <td>30</td>
+<td>mousedown()</td>
+<td>Mousedown olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>31	</td>
-  <td>	mouseenter()	</td>
-  <td>	Mouseenter olayını ekler/tetikler	</td>
+  <td>31</td>
+<td>mouseenter()</td>
+<td>Mouseenter olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>32	</td>
-  <td>	mouseleave()	</td>
-  <td>	Mouseleave olayını ekler/tetikler	</td>
+  <td>32</td>
+<td>mouseleave()</td>
+<td>Mouseleave olayını ekler/tetikler</td>
   </tr>
 <tr>
-  <td>33	</td>
-  <td>	mousemove()	</td>
-  <td>	Mousemove olayını ekler/tetikler	</td>
+  <td>33</td>
+<td>mousemove()</td>
+<td>Mousemove olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>34	</td>
-  <td>	mouseout()	</td>
-  <td>	Mouseout olayını ekler/tetikler	</td>
+  <td>34</td>
+<td>mouseout()</td>
+<td>Mouseout olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>35	</td>
-  <td>	mouseover()	</td>
-  <td>	Mouseover olayını ekler/tetikler	</td>
+  <td>35</td>
+<td>mouseover()</td>
+<td>Mouseover olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>36	</td>
-  <td>	mouseup()	</td>
-  <td>	Mouseup olayını ekler/tetikler	</td>
+  <td>36</td>
+<td>mouseup()</td>
+<td>Mouseup olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>37	</td>
-  <td>	off()	</td>
-  <td>	on() yöntemiyle eklenen olay işleyicilerini kaldırır	</td>
+  <td>37</td>
+<td>off()</td>
+<td>on() yöntemiyle eklenen olay işleyicilerini kaldırır</td>
   </tr>
 <tr>	
-  <td>38	</td>
-  <td>	on()	</td>
-  <td>	Olay işleyicilerini öğelere ekler	</td>
+  <td>38</td>
+<td>on()</td>
+<td>Olay işleyicilerini öğelere ekler</td>
   </tr>
 <tr>	
-  <td>39	</td>
-  <td>	one()	</td>
-  <td>	Seçili öğelere bir veya daha fazla olay işleyici ekler. Bu işleyici, öğe başına yalnızca bir kez tetiklenebilir	</td>
+  <td>39</td>
+<td>one()</td>
+<td>Seçili öğelere bir veya daha fazla olay işleyici ekler. Bu işleyici, öğe başına yalnızca bir kez tetiklenebilir</td>
   </tr>
 <tr>	
-  <td>40	</td>
-  <td>	$.proxy()	</td>
-  <td>	Mevcut bir işlevi alır ve belirli bir bağlamla yeni bir işlev döndürür	</td>
+  <td>40</td>
+<td>$.proxy()</td>
+<td>Mevcut bir işlevi alır ve belirli bir bağlamla yeni bir işlev döndürür</td>
   </tr>
 <tr>	
-  <td>41	</td>
-  <td>	ready()	</td>
-  <td>	DOM tamamen yüklendiğinde yürütülecek bir işlevi belirtir	</td>
+  <td>41</td>
+<td>ready()</td>
+<td>DOM tamamen yüklendiğinde yürütülecek bir işlevi belirtir</td>
   </tr>
 <tr>	
-  <td>42	</td>
-  <td>	resize()	</td>
-  <td>	Yeniden boyutlandırma olayını ekler/tetikler	</td>
+  <td>42</td>
+<td>resize()</td>
+<td>Yeniden boyutlandırma olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>43	</td>
-  <td>	scroll()	</td>
-  <td>	Kaydırma olayını ekler/tetikler	</td>
+  <td>43</td>
+<td>scroll()</td>
+<td>Kaydırma olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>44	</td>
-  <td>	select()	</td>
-  <td>	Select olayını ekler/tetikler	</td>
+  <td>44</td>
+<td>select()</td>
+<td>Select olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>45	</td>
-  <td>	submit()	</td>
-  <td>	Gönderme olayını ekler/tetikler	</td>
+  <td>45</td>
+<td>submit()</td>
+<td>Gönderme olayını ekler/tetikler</td>
   </tr>
 <tr>	
-  <td>46	</td>
-  <td>	trigger()	</td>
-  <td>	Seçili öğelere bağlı tüm olayları tetikler	</td>
+  <td>46</td>
+<td>trigger()</td>
+<td>Seçili öğelere bağlı tüm olayları tetikler</td>
   </tr>
 <tr>	
-  <td>47	</td>
-  <td>	triggerHandler()	</td><td>	Seçilen öğeler için belirli bir olaya bağlı tüm işlevleri tetikler	</td>
+  <td>47</td>
+<td>triggerHandler()</td><td>	Seçilen öğeler için belirli bir olaya bağlı tüm işlevleri tetikler</td>
   </tr>
 
 </table>
