@@ -674,7 +674,7 @@ jq(document).ready(function(){
 <td>	$("[title*='hello']")</td>
 <td>	"hello" kelimesini içeren başlık özelliği değerine sahip tüm öğeler</td>
 </tr>
- 	 	 
+</table>	 	 
 :input	$(":input")	Tüm input elementleri
 :text	$(":text")	 type="text" olan tüm input elementleri
 :password	$(":password")	type="password" olan tüm input elementleri
@@ -689,7 +689,7 @@ jq(document).ready(function(){
 :disabled	$(":disabled")	Tüm disabled input elementleri
 :selected	$(":selected")	Tüm selected input elementleri
 :checked	$(":checked")	Tüm checked input elementleri
- </table>	
+	
 
 
 
