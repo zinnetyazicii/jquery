@@ -762,47 +762,47 @@ jq(document).ready(function(){
 </tr>
 <tr>	
   <td>1</td>
- <td>	blur()</td>
+ <td>blur()</td>
 <td>Bulanıklaştırma olayını ekler/tetikler</td>
   </tr>
 <tr>	
   <td>2</td>
- <td>	change()</td>
+ <td>change()</td>
 <td>change olayını ekler/tetikler</td>
   </tr>
 <tr>	
   <td>3</td>
- <td>	click()</td>
+ <td>click()</td>
 <td>Click olayını ekler/tetikler</td>
   </tr>
 <tr>	
   <td>4</td>
- <td>	dblclick()</td>
+ <td>dblclick()</td>
 <td>Çift tıklama olayını ekler/tetikler</td>
   </tr>
 <tr>	
   <td>5</td>
- <td>	event.currentTarget</td>
+ <td>event.currentTarget</td>
 <td>Olay köpürme aşamasındaki mevcut DOM öğesi</td>
   </tr>
 <tr>	
   <td>6</td>
- <td>	event.data</td>
+ <td>event.data</td>
 <td>Geçerli yürütme işleyicisi bağlandığında bir olay yöntemine geçirilen isteğe bağlı verileri içerir</td>
   </tr>
 <tr>	
   <td>7</td>
- <td>	event.delegateTarget</td>
+ <td>event.delegateTarget</td>
 <td>Şu anda çağrılan jQuery olay işleyicisinin eklendiği öğeyi döndürür</td>
   </tr>
 <tr>	
   <td>8</td>
- <td>	event.isDefaultPrevented()</td>
+ <td>event.isDefaultPrevented()</td>
 <td>Olay nesnesi için event.preventDefault() öğesinin çağrılıp çağrılmadığını döndürür</td>
   </tr>
 <tr>	
   <td>9</td>
- <td>	event.isImmediatePropagationStopped()</td>
+ <td>event.isImmediatePropagationStopped()</td>
 <td>Olay nesnesi için event.stopImmediatePropagation() öğesinin çağrılıp çağrılmadığını döndürür</td>
   </tr>
 <tr>	
