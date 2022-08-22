@@ -652,7 +652,7 @@ jq(document).ready(function(){
 <td>40</td>
 <td>[attribute^=value]</td>
 <td>$("[title^='Tom']")</td>
-<td> "Tom" ile başlayan bir başlık özelliği değerine sahip tüm öğeler</td>
+<td>"Tom" ile başlayan bir başlık özelliği değerine sahip tüm öğeler</td>
 </tr>
 <tr>
 <td>40</td>
@@ -670,14 +670,14 @@ jq(document).ready(function(){
 <tr>
   <td>50</td>
   <td>:input	</td>
-  <td></td>$(":input")</td>
-  <td>	Tüm input elementleri</td>
+  <td>$(":input")</td>
+ <td>Tüm input elementleri</td>
 </tr>
 <tr>
   <td>50</td>
   <td>:text	</td>
   <td>$(":text")	</td>
-  <td> type="text" olan tüm input elementleri</td>
+  <td>type="text" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>50</td>
@@ -689,19 +689,19 @@ jq(document).ready(function(){
   <td>50</td>
   <td>:radio	</td>
   <td>$(":radio")</td>
-  <td> type="radio" olan tüm input elementleri</td>
+  <td>type="radio" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>50</td>
   <td>:checkbox</td>
-  <td>	$(":checkbox")	</td>
-  <td> type="checkbox" olan tüm input elementleri</td>
+ <td>$(":checkbox")	</td>
+  <td>type="checkbox" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>50</td>
   <td>:submit</td>
-  <td>	$(":submit")</td>
-  <td>	type="submit" olan tüm input elementleri</td>
+ <td>$(":submit")</td>
+ <td>type="submit" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>50</td>
@@ -725,7 +725,7 @@ jq(document).ready(function(){
   <td>50</td>
   <td>:file	</td>
   <td>$(":file")</td>
-  <td>	type="file" olan tüm input elementleri</td>
+ <td>type="file" olan tüm input elementleri</td>
 </tr>
 <tr>
   <td>50</td>
@@ -737,19 +737,19 @@ jq(document).ready(function(){
   <td>50</td>
   <td>:disabled	</td>
   <td>$(":disabled")</td>
-  <td>	Tüm disabled input elementleri</td>
+ <td>Tüm disabled input elementleri</td>
 </tr>
 <tr>
   <td>50</td>
   <td>:selected	</td>
   <td>$(":selected")</td>
-  <td>	Tüm selected input elementleri</td>
+ <td>Tüm selected input elementleri</td>
 </tr>
 <tr>
   <td>50</td>
   <td>:checked	</td>
   <td>$(":checked")	</td>
-  <td></td>Tüm checked input elementleri</td>
+  <td>Tüm checked input elementleri</td>
 </tr>
 
 </table>
