@@ -752,9 +752,250 @@ jq(document).ready(function(){
   <td>$(":checked")	</td>
   <td>Tüm checked input elementleri</td>
 </tr>
+</table>
+# jQuery Event
+<table>
+<tr>
+    <td>Sıra</td>
+    <td>Method</td>
+    <td>Açıklama</td>
+</tr>
+<tr>	
+  <td>1	</td><
+  td>	blur()	</td>
+  <td>	Bulanıklaştırma olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>2	</td><
+  td>	change()	</td>
+  <td>	change olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>3	</td><
+  td>	click()	</td>
+  <td>	Click olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>4	</td><
+  td>	dblclick()	</td>
+  <td>	Çift tıklama olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>5	</td><
+  td>	event.currentTarget	</td>
+  <td>	Olay köpürme aşamasındaki mevcut DOM öğesi	</td>
+  </tr>
+<tr>	
+  <td>6	</td><
+  td>	event.data	</td>
+  <td>	Geçerli yürütme işleyicisi bağlandığında bir olay yöntemine geçirilen isteğe bağlı verileri içerir	</td>
+  </tr>
+<tr>	
+  <td>7	</td><
+  td>	event.delegateTarget	</td>
+  <td>	Şu anda çağrılan jQuery olay işleyicisinin eklendiği öğeyi döndürür	</td>
+  </tr>
+<tr>	
+  <td>8	</td><
+  td>	event.isDefaultPrevented()	</td>
+  <td>	Olay nesnesi için event.preventDefault() öğesinin çağrılıp çağrılmadığını döndürür	</td>
+  </tr>
+<tr>	
+  <td>9	</td><
+  td>	event.isImmediatePropagationStopped()	</td>
+  <td>	Olay nesnesi için event.stopImmediatePropagation() öğesinin çağrılıp çağrılmadığını döndürür	</td>
+  </tr>
+<tr>	
+  <td>10	</td>
+  <td>	event.isPropagationStopped()	</td>
+  <td>	Olay nesnesi için event.stopPropagation() öğesinin çağrılıp çağrılmadığını döndürür	</td>
+  </tr>
+<tr>	
+  <td>11	</td>
+  <td>	event.namespace	</td>
+  <td>	Olay tetiklendiğinde belirtilen ad alanını döndürür	</td>
+  </tr>
+<tr>	
+  <td>12	</td>
+  <td>	event.pageX	</td>
+  <td>	Belgenin sol kenarına göre fare konumunu döndürür	</td>
+  </tr>
+<tr>	
+  <td>13	</td>
+  <td>	event.pageY	</td>
+  <td>	Belgenin üst kenarına göre fare konumunu döndürür	</td>
+  </tr>
+<tr>	
+  <td>14	</td>
+  <td>	event.preventDefault()	</td>
+  <td>	Etkinliğin varsayılan eylemini engeller	</td>
+  </tr>
+<tr>	
+  <td>15	</td>
+  <td>	event.relatedTarget	</td>
+  <td>	Fare hareketinde hangi öğenin girildiğini veya çıktığını döndürür	</td>
+  </tr>
+<tr>	
+  <td>16	</td>
+  <td>	event.result	</td>
+  <td>	Belirtilen olay tarafından tetiklenen bir olay işleyicisi tarafından döndürülen son/önceki değeri içerir	</td>
+  </tr>
+<tr>	
+  <td>17	</td>
+  <td>	event.stopImmediatePropagation()	</td>
+  <td>	Diğer olay işleyicilerinin çağrılmasını engeller	</td>
+  </tr>
+<tr>	
+  <td>18	</td>
+  <td>	event.stopPropagation()	</td>
+  <td>	Olayın DOM ağacında köpürmesini önleyerek, herhangi bir ebeveyn işleyicisinin olaydan haberdar edilmesini engeller	</td>
+  </tr>
+<tr>	
+  <td>19	</td>
+  <td>	event.target	</td>
+  <td>	Hangi DOM öğesinin olayı tetiklediğini döndürür	</td>
+  </tr>
+<tr>	
+  <td>20	</td>
+  <td>	event.timeStamp	</td>
+  <td>	Olayın tetiklendiği 1 Ocak 1970'den bu yana geçen milisaniye sayısını döndürür	</td>
+  </tr>
+<tr>	
+  <td>21	</td>
+  <td>	event.type	</td>
+  <td>	Hangi olay türünün tetiklendiğini döndürür	</td>
+  </tr>
+<tr>	
+  <td>22	</td>
+  <td>	event.which	</td>
+  <td>	Olay için hangi klavye tuşuna veya fare düğmesine basıldığını döndürür	</td>
+  </tr>
+<tr>	
+  <td>23	</td>
+  <td>	focus()	</td>
+  <td>	Odak olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>24	</td>
+  <td>	focusin()	</td>
+  <td>	Focusin olayına bir olay işleyicisi ekler	</td>
+  </tr>
+<tr>	
+  <td>25	</td>
+  <td>	focusout()	</td>
+  <td>	Focusout olayına bir olay işleyicisi ekler	</td>
+  </tr>
+<tr>	
+  <td>26	</td>
+  <td>	hover()	</td>
+  <td>	Hover olayına iki olay işleyicisi ekler	</td>
+  </tr>
+<tr>	
+  <td>27	</td>
+  <td>	keydown()	</td>
+  <td>	Keydown olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>28	</td>
+  <td>	keypress()	</td>
+  <td>	Tuşa basma olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>29	</td>
+  <td>	keyup()	</td>
+  <td>	Keyup olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>30	</td>
+  <td>	mousedown()	</td>
+  <td>	Mousedown olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>31	</td>
+  <td>	mouseenter()	</td>
+  <td>	Mouseenter olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>32	</td>
+  <td>	mouseleave()	</td>
+  <td>	Mouseleave olayını ekler/tetikler	</td>
+  </tr>
+<tr>
+  <td>33	</td>
+  <td>	mousemove()	</td>
+  <td>	Mousemove olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>34	</td>
+  <td>	mouseout()	</td>
+  <td>	Mouseout olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>35	</td>
+  <td>	mouseover()	</td>
+  <td>	Mouseover olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>36	</td>
+  <td>	mouseup()	</td>
+  <td>	Mouseup olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>37	</td>
+  <td>	off()	</td>
+  <td>	on() yöntemiyle eklenen olay işleyicilerini kaldırır	</td>
+  </tr>
+<tr>	
+  <td>38	</td>
+  <td>	on()	</td>
+  <td>	Olay işleyicilerini öğelere ekler	</td>
+  </tr>
+<tr>	
+  <td>39	</td>
+  <td>	one()	</td>
+  <td>	Seçili öğelere bir veya daha fazla olay işleyici ekler. Bu işleyici, öğe başına yalnızca bir kez tetiklenebilir	</td>
+  </tr>
+<tr>	
+  <td>40	</td>
+  <td>	$.proxy()	</td>
+  <td>	Mevcut bir işlevi alır ve belirli bir bağlamla yeni bir işlev döndürür	</td>
+  </tr>
+<tr>	
+  <td>41	</td>
+  <td>	ready()	</td>
+  <td>	DOM tamamen yüklendiğinde yürütülecek bir işlevi belirtir	</td>
+  </tr>
+<tr>	
+  <td>42	</td>
+  <td>	resize()	</td>
+  <td>	Yeniden boyutlandırma olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>43	</td>
+  <td>	scroll()	</td>
+  <td>	Kaydırma olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>44	</td>
+  <td>	select()	</td>
+  <td>	Select olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>45	</td>
+  <td>	submit()	</td>
+  <td>	Gönderme olayını ekler/tetikler	</td>
+  </tr>
+<tr>	
+  <td>46	</td>
+  <td>	trigger()	</td>
+  <td>	Seçili öğelere bağlı tüm olayları tetikler	</td>
+  </tr>
+<tr>	
+  <td>47	</td>
+  <td>	triggerHandler()	</td><td>	Seçilen öğeler için belirli bir olaya bağlı tüm işlevleri tetikler	</td>
+  </tr>
 
 </table>
-
 
 
 
