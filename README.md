@@ -620,7 +620,7 @@ jq(document).ready(function(){
 </tr>
 <tr>
   <td>39</td>
-  <td>[attribute]<td>
+  <td>"[attribute]"<td>
   <td>$("p:lang(de)")</td>
   <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
 </tr>
