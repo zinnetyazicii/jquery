@@ -666,23 +666,93 @@ jq(document).ready(function(){
 <td>$("[title*='hello']")</td>
 <td>"hello" kelimesini içeren başlık özelliği değerine sahip tüm öğeler</td>
 </tr>
-</table>	 	 
-:input	$(":input")	Tüm input elementleri
-:text	$(":text")	 type="text" olan tüm input elementleri
-:password	$(":password")	type="password" olan tüm input elementleri
-:radio	$(":radio") type="radio" olan tüm input elementleri
-:checkbox	$(":checkbox")	 type="checkbox" olan tüm input elementleri
-:submit	$(":submit")	type="submit" olan tüm input elementleri
-:reset	$(":reset")	type="reset" olan tüm input elementleri
-:button	$(":button")	type="button" olan tüm input elementleri
-:image	$(":image")	type="image" olan tüm input elementleri
-:file	$(":file")	type="file" olan tüm input elementleri
-:enabled	$(":enabled")	Tüm enabled input elementleri
-:disabled	$(":disabled")	Tüm disabled input elementleri
-:selected	$(":selected")	Tüm selected input elementleri
-:checked	$(":checked")	Tüm checked input elementleri
-	
+	 	 
+<tr>
+  <td>50</td>
+  <td>:input	</td>
+  <td></td>$(":input")</td>
+  <td>	Tüm input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:text	</td>
+  <td>$(":text")	</td>
+  <td> type="text" olan tüm input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:password	</td>
+  <td>$(":password")	</td>
+  <td>type="password" olan tüm input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:radio	</td>
+  <td>$(":radio")</td>
+  <td> type="radio" olan tüm input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:checkbox</td>
+  <td>	$(":checkbox")	</td>
+  <td> type="checkbox" olan tüm input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:submit</td>
+  <td>	$(":submit")</td>
+  <td>	type="submit" olan tüm input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:reset	</td>
+  <td>$(":reset")	</td>
+  <td>type="reset" olan tüm input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:button	</td>
+  <td>$(":button")	</td>
+  <td>type="button" olan tüm input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:image	</td>
+  <td>$(":image")	</td>
+  <td>type="image" olan tüm input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:file	</td>
+  <td>$(":file")</td>
+  <td>	type="file" olan tüm input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:enabled	</td>
+  <td>$(":enabled")	</td>
+  <td>Tüm enabled input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:disabled	</td>
+  <td>$(":disabled")</td>
+  <td>	Tüm disabled input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:selected	</td>
+  <td>$(":selected")</td>
+  <td>	Tüm selected input elementleri</td>
+</tr>
+<tr>
+  <td>50</td>
+  <td>:checked	</td>
+  <td>$(":checked")	</td>
+  <td></td>Tüm checked input elementleri</td>
+</tr>
 
+</table>
 
 
 
