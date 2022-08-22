@@ -621,8 +621,8 @@ jq(document).ready(function(){
 <tr>
   <td>39</td>
   <td>[attribute]</td>
-  <td>$("p:lang(de)")</td>
-  <td>"de" ile başlayan bir lang öznitelik değerine sahip tüm p öğeleri</td>
+  <td>$("[href]")</td>
+  <td>Bir href özniteliğine sahip tüm öğeler</td>
 </tr>
 </table> 	 
 <table>
