@@ -1003,40 +1003,69 @@ jq(document).ready(function(){
 
 <table>
 <tr><td>Sıra	</td><td>	Metod	</td><td>	Açıklama	</td>	</tr>	
-<tr>
-<td>1	</td><td>	animate()	</td><td>	Seçili öğeler üzerinde özel bir animasyon çalıştırır	</td>	</tr>	
-<tr>
-<td>2	</td><td>	clearQueue()	</td><td>	Seçilen öğelerden kalan tüm sıraya alınmış işlevleri kaldırır	</td>	</tr>	
-<tr>
-<td>3	</td><td>	delay()	</td><td>	Seçili öğelerdeki tüm sıraya alınmış işlevler için bir gecikme ayarlar	</td>	</tr>	
-<tr>
-<td>4	</td><td>	dequeue()	</td><td>	Sıradan sonraki işlevi kaldırır ve ardından işlevi yürütür	</td>	</tr>	
-<tr>
-<td>5	</td><td>	fadeIn()	</td><td>	Seçili öğelerde kaybolur	</td>	</tr>	
-<tr>
-<td>6	</td><td>	fadeOut()	</td><td>	Seçili öğeleri karartır	</td>	</tr>	
-<tr>
-<td>7	</td><td>	fadeTo()	</td><td>	Seçilen öğeleri belirli bir opaklığa sokar/açar	</td>	</tr>	
-<tr>
-<td>8	</td><td>	fadeToggle()	</td><td>	fadeIn() ve fadeOut() yöntemleri arasında geçiş yapar	</td>	</tr>	
-<tr>
-<td>9	</td><td>	finish()	</td><td>	Seçilen öğeler için sıraya alınmış tüm animasyonları durdurur, kaldırır ve tamamlar	</td>	</tr>	
-<tr>
-<td>10	</td><td>	hide()	</td><td>	Seçili öğeleri gizler	</td>	</tr>	
-<tr>
-<td>11	</td><td>	queue()	</td><td>	Seçili öğelerde sıraya alınmış işlevleri gösterir	</td>	</tr>	
-<tr>
-<td>12	</td><td>	show()	</td><td>	Seçilen öğeleri gösterir	</td>	</tr>	
-<tr>
-<td>13	</td><td>	slideDown()	</td><td>	Seçili öğeleri aşağı kaydırır (gösterir)	</td>	</tr>	
-<tr>
-<td>14	</td><td>	slideToggle()	</td><td>	slideUp() ve slideDown() yöntemleri arasında geçiş yapar	</td>	</tr>	
-<tr>
-<td>15	</td><td>	slideUp()	</td><td>	Seçili öğeleri yukarı kaydırır (gizler)	</td>	</tr>	
-<tr>
-<td>16	</td><td>	stop()	</td><td>	Seçili öğeler için şu anda çalışan animasyonu durdurur	</td>	</tr>	
-<tr>
-<td>17	</td><td>	toggle()	</td><td>	hide() ve show() yöntemleri arasında geçiş yapar	</td>	</tr>	</table>
+<tr><td>1	</td><td>	animate()	</td><td>	Seçili öğeler üzerinde özel bir animasyon çalıştırır	</td>	</tr>	
+<tr><td>2	</td><td>	clearQueue()	</td><td>	Seçilen öğelerden kalan tüm sıraya alınmış işlevleri kaldırır	</td>	</tr>	
+<tr><td>3	</td><td>	delay()	</td><td>	Seçili öğelerdeki tüm sıraya alınmış işlevler için bir gecikme ayarlar	</td>	</tr>	
+<tr><td>4	</td><td>	dequeue()	</td><td>	Sıradan sonraki işlevi kaldırır ve ardından işlevi yürütür	</td>	</tr>	
+<tr><td>5	</td><td>	fadeIn()	</td><td>	Seçili öğelerde kaybolur	</td>	</tr>	
+<tr><td>6	</td><td>	fadeOut()	</td><td>	Seçili öğeleri karartır	</td>	</tr>	
+<tr><td>7	</td><td>	fadeTo()	</td><td>	Seçilen öğeleri belirli bir opaklığa sokar/açar	</td>	</tr>	
+<tr><td>8	</td><td>	fadeToggle()	</td><td>	fadeIn() ve fadeOut() yöntemleri arasında geçiş yapar	</td>	</tr>	
+<tr><td>9	</td><td>	finish()	</td><td>	Seçilen öğeler için sıraya alınmış tüm animasyonları durdurur, kaldırır ve tamamlar	</td>	</tr>	
+<tr><td>10	</td><td>	hide()	</td><td>	Seçili öğeleri gizler	</td>	</tr>	
+<tr><td>11	</td><td>	queue()	</td><td>	Seçili öğelerde sıraya alınmış işlevleri gösterir	</td>	</tr>	
+<tr><td>12	</td><td>	show()	</td><td>	Seçilen öğeleri gösterir	</td>	</tr>	
+<tr><td>13	</td><td>	slideDown()	</td><td>	Seçili öğeleri aşağı kaydırır (gösterir)	</td>	</tr>	
+<tr><td>14	</td><td>	slideToggle()	</td><td>	slideUp() ve slideDown() yöntemleri arasında geçiş yapar	</td>	</tr>	
+<tr><td>15	</td><td>	slideUp()	</td><td>	Seçili öğeleri yukarı kaydırır (gizler)	</td>	</tr>	
+<tr><td>16	</td><td>	stop()	</td><td>	Seçili öğeler için şu anda çalışan animasyonu durdurur	</td>	</tr>	
+<tr><td>17	</td><td>	toggle()	</td><td>	hide() ve show() yöntemleri arasında geçiş yapar	</td>	</tr>	</table>
+
+# jQuery HTML / CSS Methods
+
+<table><tr><td>Sıra	</td><td>	Metod	</td><td>	Açıklama	</td>	</tr>	
+<tr><td>1	</td><td>	addClass()	</td><td>	Seçili öğelere bir veya daha fazla sınıf adı ekler	</td>	</tr>	
+<tr><td>2	</td><td>	after()	</td><td>	Seçilen öğelerden sonra içerik ekler	</td>	</tr>	
+<tr><td>3	</td><td>	append()	</td><td>	Seçilen öğelerin sonuna içerik ekler	</td>	</tr>	
+<tr><td>4	</td><td>	appendTo()	</td><td>	Seçilen öğelerin sonuna HTML öğeleri ekler	</td>	</tr>	
+<tr><td>5	</td><td>	attr()	</td><td>	Seçili öğelerin niteliklerini/değerlerini ayarlar veya döndürür	</td>	</tr>	
+<tr><td>6	</td><td>	before()	</td><td>	İçeriği seçilen öğelerden önce ekler	</td>	</tr>	
+<tr><td>7	</td><td>	clone()	</td><td>	Seçili öğelerin bir kopyasını oluşturur	</td>	</tr>	
+<tr><td>8	</td><td>	css()	</td><td>	Seçili öğeler için bir veya daha fazla stil özelliğini ayarlar veya döndürür	</td>	</tr>	
+<tr><td>9	</td><td>	detach()	</td><td>	Seçilen öğeleri kaldırır (verileri ve olayları tutar)	</td>	</tr>	
+<tr><td>10	</td><td>	empty()	</td><td>	Tüm alt düğümleri ve içeriği seçili öğelerden kaldırır	</td>	</tr>	
+<tr><td>11	</td><td>	hasClass()	</td><td>	Seçilen öğelerden herhangi birinin belirli bir sınıf adına sahip olup olmadığını kontrol eder	</td>	</tr>	
+<tr><td>12	</td><td>	height()	</td><td>	Seçili öğelerin yüksekliğini ayarlar veya döndürür	</td>	</tr>	
+<tr><td>13	</td><td>	html()	</td><td>	Seçili öğelerin içeriğini ayarlar veya döndürür	</td>	</tr>	
+<tr><td>14	</td><td>	innerHeight()	</td><td>	Bir öğenin yüksekliğini döndürür (dolgu içerir, ancak kenarlık içermez)	</td>	</tr>	
+<tr><td>15	</td><td>	innerWidth()	</td><td>	Bir öğenin genişliğini döndürür (dolgu içerir, ancak kenarlık içermez)	</td>	</tr>	
+<tr><td>16	</td><td>	insertAfter()	</td><td>	Seçilen öğelerden sonra HTML öğeleri ekler	</td>	</tr>	
+<tr><td>17	</td><td>	insertBefore()	</td><td>	HTML öğelerini seçili öğelerden önce ekler	</td>	</tr>	
+<tr><td>18	</td><td>	offset()	</td><td>	Seçilen öğeler için ofset koordinatlarını ayarlar veya döndürür (belgeye göre)	</td>	</tr>	
+<tr><td>19	</td><td>	offsetParent()	</td><td>	İlk konumlandırılmış üst öğeyi döndürür	</td>	</tr>	
+<tr><td>20	</td><td>	outerHeight()	</td><td>	Bir öğenin yüksekliğini döndürür (dolgu ve kenarlık içerir)	</td>	</tr>	
+<tr><td>21	</td><td>	outerWidth()	</td><td>	Bir öğenin genişliğini döndürür (dolgu ve kenarlık içerir)	</td>	</tr>	
+<tr><td>22	</td><td>	position()	</td><td>	Bir öğenin konumunu (ana öğeye göre) döndürür	</td>	</tr>	
+<tr><td>23	</td><td>	prepend()	</td><td>	İçeriği seçilen öğelerin başına ekler	</td>	</tr>	
+<tr><td>24	</td><td>	prependTo()	</td><td>	Seçili öğelerin başına HTML öğeleri ekler	</td>	</tr>	
+<tr><td>25	</td><td>	prop()	</td><td>	Seçili öğelerin özelliklerini/değerlerini ayarlar veya döndürür	</td>	</tr>	
+<tr><td>26	</td><td>	remove()	</td><td>	Seçili öğeleri kaldırır (veriler ve olaylar dahil)	</td>	</tr>	
+<tr><td>27	</td><td>	removeAttr()	</td><td>	Seçili öğelerden bir veya daha fazla özniteliği kaldırır	</td>	</tr>	
+<tr><td>28	</td><td>	removeClass()	</td><td>	Seçili öğelerden bir veya daha fazla sınıfı kaldırır	</td>	</tr>	
+<tr><td>29	</td><td>	removeProp()	</td><td>	prop() yöntemi tarafından ayarlanan bir özelliği kaldırır	</td>	</tr>	
+<tr><td>30	</td><td>	replaceAll()	</td><td>	Seçili öğeleri yeni HTML öğeleriyle değiştirir	</td>	</tr>	
+<tr><td>31	</td><td>	replaceWith()	</td><td>	Seçili öğeleri yeni içerikle değiştirir	</td>	</tr>	
+<tr><td>32	</td><td>	scrollLeft()	</td><td>	Seçili öğelerin yatay kaydırma çubuğu konumunu ayarlar veya döndürür	</td>	</tr>	
+<tr><td>33	</td><td>	scrollTop()	</td><td>	Seçili öğelerin dikey kaydırma çubuğu konumunu ayarlar veya döndürür	</td>	</tr>	
+<tr><td>34	</td><td>	text()	</td><td>	Seçili öğelerin metin içeriğini ayarlar veya döndürür	</td>	</tr>	
+<tr><td>35	</td><td>	toggleClass()	</td><td>	Seçili öğelerden bir veya daha fazla sınıf ekleme/kaldırma arasında geçiş yapar	</td>	</tr>	
+<tr><td>36	</td><td>	unwrap()	</td><td>	Seçili öğelerin üst öğesini kaldırır	</td>	</tr>	
+<tr><td>37	</td><td>	val()	</td><td>	Seçili öğelerin değer niteliğini ayarlar veya döndürür (form öğeleri için)	</td>	</tr>	
+<tr><td>38	</td><td>	width()	</td><td>	Seçili öğelerin genişliğini ayarlar veya döndürür	</td>	</tr>	
+<tr><td>39	</td><td>	wrap()	</td><td>	HTML öğelerini seçilen her öğenin etrafına sarar	</td>	</tr>	
+<tr><td>40	</td><td>	wrapAll()	</td><td>	HTML öğelerini seçili tüm öğelerin etrafına sarar	</td>	</tr>	
+<tr><td>41	</td><td>	wrapInner()	</td><td>	HTML öğelerini, seçilen her öğenin içeriğinin etrafına sarar	</td>	</tr>	</table>
+
 
 
 
