@@ -1102,6 +1102,50 @@ jq(document).ready(function(){
 <tr><td>29	</td><td>	slice()	</td><td>	Eşleşen öğeler kümesini, bir dizi indeks tarafından belirtilen bir alt kümeye indirger	</td>	</tr>	
 </table>
 
+# jQuery AJAX Methods
+<table><tr><td>Sıra	</td><td>	Metod	</td><td>	Açıklama	</td>	</tr>	
+<tr><td>1	</td><td>	$.ajax()	</td><td>	Zaman uyumsuz bir AJAX isteği gerçekleştirir	</td>	</tr>	
+<tr><td>2	</td><td>	$.ajaxPrefilter()	</td><td>	Her istek gönderilmeden ve $.ajax() tarafından işlenmeden önce özel Ajax seçeneklerini kullanın veya mevcut seçenekleri değiştirin	</td>	</tr>	
+<tr><td>4	</td><td>	$.ajaxSetup()	</td><td>	Gelecekteki AJAX istekleri için varsayılan değerleri ayarlar	</td>	</tr>	
+<tr><td>5	</td><td>	$.ajaxTransport()	</td><td>	Ajax verilerinin gerçek iletimini işleyen bir nesne oluşturur	</td>	</tr>	
+<tr><td>6	</td><td>	$.get()	</td><td>	AJAX HTTP GET isteği kullanarak bir sunucudan veri yükler	</td>	</tr>	
+<tr><td>7	</td><td>	$.getJSON()	</td><td>	HTTP GET isteği kullanarak bir sunucudan JSON kodlu verileri yükler	</td>	</tr>	
+<tr><td>8	</td><td>	$.getScript()	</td><td>	AJAX HTTP GET isteği kullanarak bir sunucudan JavaScript yükler (ve yürütür)	</td>	</tr>	
+<tr><td>9	</td><td>	$.param()	</td><td>	Bir dizi veya nesnenin serileştirilmiş bir temsilini oluşturur (AJAX istekleri için URL sorgu dizesi olarak kullanılabilir)	</td>	</tr>	
+<tr><td>10	</td><td>	$.post()	</td><td>	AJAX HTTP POST isteği kullanarak bir sunucudan veri yükler	</td>	</tr>	
+<tr><td>11	</td><td>	ajaxComplete()	</td><td>	AJAX isteği tamamlandığında çalıştırılacak bir işlevi belirtir	</td>	</tr>	
+<tr><td>12	</td><td>	ajaxError()	</td><td>	AJAX isteği bir hatayla tamamlandığında çalışacak bir işlevi belirtir	</td>	</tr>	
+<tr><td>13	</td><td>	ajaxSend()	</td><td>	AJAX isteği gönderilmeden önce çalıştırılacak bir işlevi belirtir	</td>	</tr>	
+<tr><td>14	</td><td>	ajaxStart()	</td><td>	İlk AJAX isteği başladığında çalıştırılacak bir işlevi belirtir	</td>	</tr>	
+<tr><td>15	</td><td>	ajaxStop()	</td><td>	Tüm AJAX istekleri tamamlandığında çalışacak bir işlevi belirtir	</td>	</tr>	
+<tr><td>16	</td><td>	ajaxSuccess()	</td><td>	Bir AJAX isteği başarıyla tamamlandığında çalıştırılacak bir işlevi belirtir	</td>	</tr>	
+<tr><td>17	</td><td>	load()	</td><td>	Bir sunucudan veri yükler ve döndürülen verileri seçilen öğeye koyar	</td>	</tr>	
+<tr><td>18	</td><td>	serialize()	</td><td>	Bir dizi form öğesini gönderim için bir dize olarak kodlar	</td>	</tr>	
+<tr><td>19	</td><td>	serializeArray()	</td><td>	Bir dizi form öğesini bir ad ve değer dizisi olarak kodlar	</td>	</tr>	</table>
+
+# jQuery Misc Methods
+					
+<table><tr><td>Sıra	</td><td>	Metod	</td><td>	Açıklama	</td>	</tr>	
+<tr><td>1	</td><td>	data()	</td><td>	Seçilen öğelere veri ekler veya bunlardan veri alır	</td>	</tr>	
+<tr><td>2	</td><td>	each()	</td><td>	Eşleşen her öğe için bir işlev yürütün	</td>	</tr>	
+<tr><td>3	</td><td>	get()	</td><td>	Seçici tarafından eşleşen DOM öğelerini alın	</td>	</tr>	
+<tr><td>4	</td><td>	index()	</td><td>	Eşleşen öğeler arasından belirli bir öğeyi arayın	</td>	</tr>	
+<tr><td>5	</td><td>	$.noConflict()	</td><td>	jQuery'nin $ değişkeni üzerindeki kontrolünü bırakın	</td>	</tr>	
+<tr><td>6	</td><td>	$.param()	</td><td>	Bir dizinin veya nesnenin serileştirilmiş bir temsilini oluşturun (AJAX istekleri için URL sorgu dizesi olarak kullanılabilir)	</td>	</tr>	
+<tr><td>7	</td><td>	removeData()	</td><td>	Önceden depolanmış bir veri parçasını kaldırır	</td>	</tr>	
+<tr><td>8	</td><td>	toArray()	</td><td>	jQuery kümesinde bulunan tüm DOM öğelerini bir dizi olarak alın	</td>	</tr>	</table>
+
+
+# jQuery Propertiess
+
+<table><tr><td>Sıra	</td><td>	Metod	</td><td>	Açıklama	</td>	</tr>	
+<tr><td>1	</td><td>	jquery	</td><td>	jQuery sürüm numarasını içerir	</td>	</tr>	
+<tr><td>2	</td><td>	jQuery.fx.interval	</td><td>	Animasyon ateşleme hızını milisaniye cinsinden değiştirin	</td>	</tr>	
+<tr><td>3	</td><td>	jQuery.fx.off	</td><td>	Tüm animasyonları genel olarak devre dışı bırak/etkinleştir	</td>	</tr>	
+<tr><td>4	</td><td>	jQuery.support	</td><td>	Farklı tarayıcı özelliklerini veya hatalarını temsil eden bir özellikler koleksiyonu (jQuery'nin dahili kullanımı için tasarlanmıştır)	</td>	</tr>	
+<tr><td>5	</td><td>	length	</td><td>	jQuery nesnesindeki öğelerin sayısını içerir	</td>	</tr>	</table>
+
+
 
 
 
