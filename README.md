@@ -753,7 +753,9 @@ jq(document).ready(function(){
   <td>Tüm checked input elementleri</td>
 </tr>
 </table>
+
 # jQuery Event
+
 <table>
 <tr>
     <td>Sıra</td>
@@ -763,7 +765,7 @@ jq(document).ready(function(){
 <tr>	
   <td>1</td>
  <td>blur()</td>
-<td>Bulanıklaştırma olayını ekler/tetikler</td>
+<td>İşlev, form alanı odağı kaybettiğinde yürütülür</td>
   </tr>
 <tr>	
   <td>2</td>
@@ -994,8 +996,7 @@ jq(document).ready(function(){
   <td>47</td>
 <td>triggerHandler()</td>
 <td>Seçilen öğeler için belirli bir olaya bağlı tüm işlevleri tetikler</td>
-  </tr>
-
+</tr>
 </table>
 
 
