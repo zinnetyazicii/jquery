@@ -999,6 +999,46 @@ jq(document).ready(function(){
 </tr>
 </table>
 
+# jQuery Effect
+
+<table>
+<tr><td>Sıra	</td><td>	Metod	</td><td>	Açıklama	</td>	</tr>	
+<tr>
+<td>1	</td><td>	animate()	</td><td>	Seçili öğeler üzerinde özel bir animasyon çalıştırır	</td>	</tr>	
+<tr>
+<td>2	</td><td>	clearQueue()	</td><td>	Seçilen öğelerden kalan tüm sıraya alınmış işlevleri kaldırır	</td>	</tr>	
+<tr>
+<td>3	</td><td>	delay()	</td><td>	Seçili öğelerdeki tüm sıraya alınmış işlevler için bir gecikme ayarlar	</td>	</tr>	
+<tr>
+<td>4	</td><td>	dequeue()	</td><td>	Sıradan sonraki işlevi kaldırır ve ardından işlevi yürütür	</td>	</tr>	
+<tr>
+<td>5	</td><td>	fadeIn()	</td><td>	Seçili öğelerde kaybolur	</td>	</tr>	
+<tr>
+<td>6	</td><td>	fadeOut()	</td><td>	Seçili öğeleri karartır	</td>	</tr>	
+<tr>
+<td>7	</td><td>	fadeTo()	</td><td>	Seçilen öğeleri belirli bir opaklığa sokar/açar	</td>	</tr>	
+<tr>
+<td>8	</td><td>	fadeToggle()	</td><td>	fadeIn() ve fadeOut() yöntemleri arasında geçiş yapar	</td>	</tr>	
+<tr>
+<td>9	</td><td>	finish()	</td><td>	Seçilen öğeler için sıraya alınmış tüm animasyonları durdurur, kaldırır ve tamamlar	</td>	</tr>	
+<tr>
+<td>10	</td><td>	hide()	</td><td>	Seçili öğeleri gizler	</td>	</tr>	
+<tr>
+<td>11	</td><td>	queue()	</td><td>	Seçili öğelerde sıraya alınmış işlevleri gösterir	</td>	</tr>	
+<tr>
+<td>12	</td><td>	show()	</td><td>	Seçilen öğeleri gösterir	</td>	</tr>	
+<tr>
+<td>13	</td><td>	slideDown()	</td><td>	Seçili öğeleri aşağı kaydırır (gösterir)	</td>	</tr>	
+<tr>
+<td>14	</td><td>	slideToggle()	</td><td>	slideUp() ve slideDown() yöntemleri arasında geçiş yapar	</td>	</tr>	
+<tr>
+<td>15	</td><td>	slideUp()	</td><td>	Seçili öğeleri yukarı kaydırır (gizler)	</td>	</tr>	
+<tr>
+<td>16	</td><td>	stop()	</td><td>	Seçili öğeler için şu anda çalışan animasyonu durdurur	</td>	</tr>	
+<tr>
+<td>17	</td><td>	toggle()	</td><td>	hide() ve show() yöntemleri arasında geçiş yapar	</td>	</tr>	</table>
+
+
 
 
 
