@@ -1068,6 +1068,41 @@ jq(document).ready(function(){
 <tr><td>41</td><td>wrapInner()</td><td>HTML öğelerini, seçilen her öğenin içeriğinin etrafına sarar</td></tr>	
 </table>
 
+# Query Traversing Methods
+
+<table>
+<tr><td>Sıra	</td><td>	Metod	</td><td>	Açıklama	</td>	</tr>	
+<tr><td>1	</td><td>	add()	</td><td>	Eşleşen öğeler kümesine öğeler ekler	</td>	</tr>	
+<tr><td>2	</td><td>	addBack()	</td><td>	Önceki öğe kümesini geçerli kümeye ekler	</td>	</tr>	
+<tr><td>4	</td><td>	children()	</td><td>	Seçili öğenin tüm doğrudan alt öğelerini döndürür	</td>	</tr>	
+<tr><td>5	</td><td>	closest()	</td><td>	Seçili öğenin ilk atasını döndürür	</td>	</tr>	
+<tr><td>6	</td><td>	contents()	</td><td>	Seçili öğenin tüm doğrudan alt öğelerini döndürür (metin ve yorum düğümleri dahil)	</td>	</tr>	
+<tr><td>7	</td><td>	each()	</td><td>	Eşleşen her öğe için bir işlev yürütür	</td>	</tr>	
+<tr><td>8	</td><td>	end()	</td><td>	Geçerli zincirdeki en son filtreleme işlemini sonlandırır ve eşleşen öğeler kümesini önceki durumuna döndürür	</td>	</tr>	
+<tr><td>9	</td><td>	eq()	</td><td>	Seçilen öğelerin belirli bir dizin numarasına sahip bir öğe döndürür	</td>	</tr>	
+<tr><td>10	</td><td>	filter()	</td><td>	Eşleşen öğeler kümesini seçiciyle eşleşenlere veya işlevin testini geçenlere azaltın	</td>	</tr>	
+<tr><td>11	</td><td>	find()	</td><td>	Seçili öğenin alt öğelerini döndürür	</td>	</tr>	
+<tr><td>12	</td><td>	first()	</td><td>	Seçili öğelerin ilk öğesini döndürür	</td>	</tr>	
+<tr><td>13	</td><td>	has()	</td><td>	İçinde bir veya daha fazla öğe bulunan tüm öğeleri döndürür	</td>	</tr>	
+<tr><td>14	</td><td>	is()	</td><td>	Bir seçici/eleman/jQuery nesnesine karşı eşleşen öğeler kümesini kontrol eder ve bu öğelerden en az biri verilen argümanlarla eşleşirse true değerini döndürür	</td>	</tr>	
+<tr><td>15	</td><td>	last()	</td><td>	Seçili öğelerin son öğesini döndürür	</td>	</tr>	
+<tr><td>16	</td><td>	map()	</td><td>	Eşleşen kümedeki her öğeyi bir işlev aracılığıyla iletir ve dönüş değerlerini içeren yeni bir jQuery nesnesi üretir.	</td>	</tr>	
+<tr><td>17	</td><td>	next()	</td><td>	Seçili öğenin sonraki kardeş öğesini döndürür	</td>	</tr>	
+<tr><td>18	</td><td>	nextAll()	</td><td>	Seçili öğenin sonraki tüm kardeş öğelerini döndürür	</td>	</tr>	
+<tr><td>19	</td><td>	nextUntil()	</td><td>	Verilen iki bağımsız değişken arasındaki tüm sonraki kardeş öğeleri döndürür	</td>	</tr>	
+<tr><td>20	</td><td>	not()	</td><td>	Belirli bir ölçütle eşleşmeyen öğeleri döndürür	</td>	</tr>	
+<tr><td>21	</td><td>	offsetParent()	</td><td>	İlk konumlandırılmış üst öğeyi döndürür	</td>	</tr>	
+<tr><td>22	</td><td>	parent()	</td><td>	Seçili öğenin doğrudan üst öğesini döndürür	</td>	</tr>	
+<tr><td>23	</td><td>	parents()	</td><td>	Seçili öğenin tüm üst öğelerini döndürür	</td>	</tr>	
+<tr><td>24	</td><td>	parentsUntil()	</td><td>	Verilen iki bağımsız değişken arasındaki tüm üst öğeleri döndürür	</td>	</tr>	
+<tr><td>25	</td><td>	prev()	</td><td>	Seçili öğenin önceki kardeş öğesini döndürür	</td>	</tr>	
+<tr><td>26	</td><td>	prevAll()	</td><td>	Seçili öğenin önceki tüm kardeş öğelerini döndürür	</td>	</tr>	
+<tr><td>27	</td><td>	prevUntil()	</td><td>	Verilen iki bağımsız değişken arasındaki önceki tüm kardeş öğeleri döndürür	</td>	</tr>	
+<tr><td>28	</td><td>	siblings()	</td><td>	Seçili öğenin tüm kardeş öğelerini döndürür	</td>	</tr>	
+<tr><td>29	</td><td>	slice()	</td><td>	Eşleşen öğeler kümesini, bir dizi indeks tarafından belirtilen bir alt kümeye indirger	</td>	</tr>	
+</table>
+
+
 
 
 
