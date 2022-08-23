@@ -1068,7 +1068,7 @@ jq(document).ready(function(){
 <tr><td>41</td><td>wrapInner()</td><td>HTML öğelerini, seçilen her öğenin içeriğinin etrafına sarar</td></tr>	
 </table>
 
-# Query Traversing Methods
+# JQuery Traversing Methods
 
 <table>
 <tr><td>Sıra	</td><td>	Metod	</td><td>	Açıklama	</td>	</tr>	
