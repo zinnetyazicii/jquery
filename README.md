@@ -150,7 +150,7 @@
  - `$("#btn1").click(function(){
   $("#test1").text("Hello world!");
 });`
-### 2.2 html()
+### 2.2 html().
  - Seçilen öğelerin içeriğini ayarlar veya döndürür (HTML işaretlemesi dahil)
  - `$("#btn2").click(function(){
   $("#test2").html("<b>Hello world!</b>");
