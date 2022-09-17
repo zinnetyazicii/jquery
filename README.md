@@ -20,7 +20,7 @@
 ### 8. blur
    - İşlev, form alanı odağı kaybettiğinde yürütülür
 ### 9. on
-   - Bir öğeye birden çok olay işleyicisi ekler
+   - Bir öğeye birden çok olay işleyicisi ekler.
    - ` $("p").on({
   mouseenter: function(){
     $(this).css("background-color", "lightgray");
